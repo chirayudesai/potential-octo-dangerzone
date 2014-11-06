@@ -14,7 +14,6 @@
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
-           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
