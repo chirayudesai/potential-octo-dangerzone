@@ -7,6 +7,8 @@
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
+  
+  <project name="platform/manifest" />
 
   <project name="platform/abi/cpp" groups="pdk" />
   <project name="platform/art" groups="pdk" />
