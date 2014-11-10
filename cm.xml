@@ -16,11 +16,10 @@
            remote="github"
            sync-j="4" />
 
-
   <project name="CyanogenMod/android" />
-
   <project name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project name="CyanogenMod/android_art" />
+  <project name="CyanogenMod/AndroidAsync" />
   <project name="CyanogenMod/android_bionic" groups="pdk" />
   <project name="CyanogenMod/android_bootable_diskinstaller" />
   <project name="CyanogenMod/android_bootable_recovery" />
@@ -29,6 +28,7 @@
   <project name="CyanogenMod/android_dalvik" />
   <project name="CyanogenMod/android_development" />
   <project name="CyanogenMod/android_device_common" />
+  <project name="CyanogenMod/android_device_generic_arm64" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
@@ -42,10 +42,10 @@
   <project name="CyanogenMod/android_external_android-mock" />
   <project name="CyanogenMod/android_external_android-visualizer" />
   <project name="CyanogenMod/android_external_ant-glob" />
-  <project name="CyanogenMod/android_external_ant-wireless_ant_native" />
-  <project name="CyanogenMod/android_external_ant-wireless_ant_service" />
-  <project name="CyanogenMod/android_external_ant-wireless_antradio-library" />
   <project name="CyanogenMod/android_external_antlr" />
+  <project name="CyanogenMod/android_external_ant-wireless_ant_native" />
+  <project name="CyanogenMod/android_external_ant-wireless_antradio-library" />
+  <project name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project name="CyanogenMod/android_external_apache-harmony" />
   <project name="CyanogenMod/android_external_apache-http" />
   <project name="CyanogenMod/android_external_apache-qp" />
@@ -63,9 +63,9 @@
   <project name="CyanogenMod/android_external_cardslib" />
   <project name="CyanogenMod/android_external_checkpolicy" groups="pdk" />
   <project name="CyanogenMod/android_external_chromium" />
-  <project name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
   <project name="CyanogenMod/android_external_chromium_org" />
   <project name="CyanogenMod/android_external_chromium_org_third_party_openssl" />
+  <project name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
   <project name="CyanogenMod/android_external_clang" groups="pdk" />
   <project name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
   <project name="CyanogenMod/android_external_connectivity" />
@@ -111,11 +111,13 @@
   <project name="CyanogenMod/android_external_htop" />
   <project name="CyanogenMod/android_external_hyphenation" />
   <project name="CyanogenMod/android_external_icu4c" groups="pdk" />
+  <project name="CyanogenMod/android_external_icu" revision="cm-12.0" />
   <project name="CyanogenMod/android_external_iproute2" groups="pdk" />
   <project name="CyanogenMod/android_external_ipsec-tools" />
   <project name="CyanogenMod/android_external_iptables" />
   <project name="CyanogenMod/android_external_jack" />
   <project name="CyanogenMod/android_external_JakeWharton_butterknife" />
+  <project name="CyanogenMod/android_external_jarjar" revision="cm-12.0" />
   <project name="CyanogenMod/android_external_javasqlite" />
   <project name="CyanogenMod/android_external_javassist" />
   <project name="CyanogenMod/android_external_jdiff" />
@@ -130,10 +132,6 @@
   <project name="CyanogenMod/android_external_junit" />
   <project name="CyanogenMod/android_external_kernel-headers" />
   <project name="CyanogenMod/android_external_kissfft" />
-  <project name="CyanogenMod/ion" />
-  <project name="CyanogenMod/AndroidAsync" />
-  <project name="CyanogenMod/Superuser" />
-  <project name="CyanogenMod/Widgets" />
   <project name="CyanogenMod/android_external_libcap-ng" />
   <project name="CyanogenMod/android_external_libffi" />
   <project name="CyanogenMod/android_external_libgsm" groups="pdk" />
@@ -153,8 +151,8 @@
   <project name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project name="CyanogenMod/android_external_libtar" />
   <project name="CyanogenMod/android_external_libusb" />
-  <project name="CyanogenMod/android_external_libusbx" />
   <project name="CyanogenMod/android_external_libusb-compat" />
+  <project name="CyanogenMod/android_external_libusbx" />
   <project name="CyanogenMod/android_external_libvorbis" />
   <project name="CyanogenMod/android_external_libvpx" groups="pdk" />
   <project name="CyanogenMod/android_external_libxml2" />
@@ -190,8 +188,8 @@
   <project name="CyanogenMod/android_external_powertop" />
   <project name="CyanogenMod/android_external_ppp" />
   <project name="CyanogenMod/android_external_proguard" groups="pdk-java" />
-  <project name="CyanogenMod/android_external_protobuf" groups="pdk" />
   <project name="CyanogenMod/android_external_protobuf-c" />
+  <project name="CyanogenMod/android_external_protobuf" groups="pdk" />
   <project name="CyanogenMod/android_external_qemu" />
   <project name="CyanogenMod/android_external_qemu-pc-bios" />
   <project name="CyanogenMod/android_external_qrngd" />
@@ -219,8 +217,8 @@
   <project name="CyanogenMod/android_external_tcpdump" />
   <project name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
   <project name="CyanogenMod/android_external_tinycompress" groups="pdk" />
-  <project name="CyanogenMod/android_external_tinyxml" groups="pdk" />
   <project name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
+  <project name="CyanogenMod/android_external_tinyxml" groups="pdk" />
   <project name="CyanogenMod/android_external_tremolo" groups="pdk" />
   <project name="CyanogenMod/android_external_v8" />
   <project name="CyanogenMod/android_external_valgrind" groups="pdk" />
@@ -243,10 +241,15 @@
   <project name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
   <project name="CyanogenMod/android_frameworks_ex" />
   <project name="CyanogenMod/android_frameworks_mff" />
+  <project name="CyanogenMod/android_frameworks_minikin" revision="cm-12.0" />
   <project name="CyanogenMod/android_frameworks_ml" />
+  <project name="CyanogenMod/android_frameworks_multidex" revision="cm-12.0" />
   <project name="CyanogenMod/android_frameworks_native" groups="pdk" />
+  <project name="CyanogenMod/android_frameworks_opt_bitmap" revision="cm-12.0" />
+  <project name="CyanogenMod/android_frameworks_opt_bluetooth" revision="cm-12.0" />
   <project name="CyanogenMod/android_frameworks_opt_calendar" />
   <project name="CyanogenMod/android_frameworks_opt_carddav" />
+  <project name="CyanogenMod/android_frameworks_opt_chips" revision="cm-12.0" />
   <project name="CyanogenMod/android_frameworks_opt_colorpicker" />
   <project name="CyanogenMod/android_frameworks_opt_datetimepicker" />
   <project name="CyanogenMod/android_frameworks_opt_emoji" />
@@ -254,11 +257,15 @@
   <project name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
   <project name="CyanogenMod/android_frameworks_opt_mailcommon" />
   <project name="CyanogenMod/android_frameworks_opt_mms" />
+  <project name="CyanogenMod/android_frameworks_opt_net_ethernet" revision="cm-12.0" />
+  <project name="CyanogenMod/android_frameworks_opt_net_ims" revision="cm-12.0" />
   <project name="CyanogenMod/android_frameworks_opt_net_voip" />
+  <project name="CyanogenMod/android_frameworks_opt_net_wifi" revision="cm-12.0" />
   <project name="CyanogenMod/android_frameworks_opt_photoviewer" />
-  <project name="CyanogenMod/android_frameworks_opt_timezonepicker" />
+  <project name="CyanogenMod/android_frameworks_opt_setupwizard" revision="cm-12.0" />
   <project name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project name="CyanogenMod/android_frameworks_opt_telephony-msim" />
+  <project name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project name="CyanogenMod/android_frameworks_opt_vcard" />
   <project name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project name="CyanogenMod/android_frameworks_support" />
@@ -273,16 +280,18 @@
   <project name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
-  <project name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
+  <project name="CyanogenMod/android_hardware_nvidia_audio" revision="cm-12.0" />
+  <project name="CyanogenMod/android_hardware_nvidia_tegra124" revision="cm-12.0" />
   <project name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
-  <project name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <project name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
-  <project name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+  <project name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project name="CyanogenMod/android_hardware_qcom_power" />
@@ -323,9 +332,11 @@
   <project name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project name="CyanogenMod/android_packages_apps_InCallUI" />
   <project name="CyanogenMod/android_packages_apps_KeyChain" />
+  <project name="CyanogenMod/android_packages_apps_Launcher3" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_LockClock" />
   <project name="CyanogenMod/android_packages_apps_Mms" />
   <project name="CyanogenMod/android_packages_apps_Nfc" />
+  <project name="CyanogenMod/android_packages_apps_OMA-DM" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project name="CyanogenMod/android_packages_apps_Provision" />
@@ -338,6 +349,7 @@
   <project name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project name="CyanogenMod/android_packages_apps_Torch" />
   <project name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project name="CyanogenMod/android_packages_apps_TvSettings" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project name="CyanogenMod/android_packages_apps_VoiceDialer" />
@@ -354,10 +366,13 @@
   <project name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project name="CyanogenMod/android_packages_providers_ThemesProvider" />
+  <project name="CyanogenMod/android_packages_providers_TvProvider" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project name="CyanogenMod/android_packages_screensavers_Basic" />
   <project name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project name="CyanogenMod/android_packages_screensavers_WebView" />
+  <project name="CyanogenMod/android_packages_services_Mms" revision="cm-12.0" />
+  <project name="CyanogenMod/android_packages_services_Telecomm" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_services_Telephony" />
   <project name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
@@ -373,11 +388,16 @@
   <project name="CyanogenMod/android_sdk" />
   <project name="CyanogenMod/android_system_core" groups="pdk" />
   <project name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project name="CyanogenMod/android_system_keymaster" revision="cm-12.0" />
   <project name="CyanogenMod/android_system_media" groups="pdk" />
   <project name="CyanogenMod/android_system_netd" groups="pdk" />
   <project name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project name="CyanogenMod/android_system_security" groups="pdk" />
   <project name="CyanogenMod/android_system_vold" groups="pdk" />
   <project name="CyanogenMod/android_vendor_cm" />
+  <project name="CyanogenMod/ion" />
+  <project name="CyanogenMod/Superuser" />
+  <project name="CyanogenMod/Widgets" />
   <project name="cyngn/android_vendor_cyngn" />
+
 </manifest>
