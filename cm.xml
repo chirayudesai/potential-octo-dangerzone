@@ -150,6 +150,7 @@
   <project name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project name="CyanogenMod/android_external_libtar" />
+  <project name="CyanogenMod/android_external_libtruezip" />
   <project name="CyanogenMod/android_external_libusb" />
   <project name="CyanogenMod/android_external_libusb-compat" />
   <project name="CyanogenMod/android_external_libusbx" />
@@ -220,6 +221,7 @@
   <project name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project name="CyanogenMod/android_external_tinyxml" groups="pdk" />
   <project name="CyanogenMod/android_external_tremolo" groups="pdk" />
+  <project name="CyanogenMod/android_external_unrar" />
   <project name="CyanogenMod/android_external_v8" />
   <project name="CyanogenMod/android_external_valgrind" groups="pdk" />
   <project name="CyanogenMod/android_external_vim" />
@@ -232,6 +234,7 @@
   <project name="CyanogenMod/android_external_xmlwriter" />
   <project name="CyanogenMod/android_external_xmp_toolkit" />
   <project name="CyanogenMod/android_external_yaffs2" groups="pdk" />
+  <project name="CyanogenMod/android_external_zip" />
   <project name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project name="CyanogenMod/android_external_zxing" />
   <project name="CyanogenMod/android_frameworks_av" groups="pdk" />
