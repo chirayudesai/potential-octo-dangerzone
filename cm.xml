@@ -339,6 +339,7 @@
   <project name="CyanogenMod/android_packages_apps_Launcher3" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_LockClock" />
   <project name="CyanogenMod/android_packages_apps_Mms" />
+  <project name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project name="CyanogenMod/android_packages_apps_Nfc" />
   <project name="CyanogenMod/android_packages_apps_OMA-DM" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_PackageInstaller" />
