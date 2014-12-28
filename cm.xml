@@ -215,7 +215,7 @@
   <project name="CyanogenMod/android_external_stlport" groups="pdk" />
   <project name="CyanogenMod/android_external_strace" />
   <project name="CyanogenMod/android_external_stressapptest" />
-  <project name="CyanogenMod/android_external_svox" />
+  <!-- <project name="CyanogenMod/android_external_svox" /> -->
   <project name="CyanogenMod/android_external_tagsoup" />
   <project name="CyanogenMod/android_external_tcpdump" />
   <project name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
