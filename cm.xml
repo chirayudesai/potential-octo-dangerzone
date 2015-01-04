@@ -158,6 +158,7 @@
   <project name="CyanogenMod/android_external_libusbx" />
   <project name="CyanogenMod/android_external_libvorbis" />
   <project name="CyanogenMod/android_external_libvpx" groups="pdk" />
+  <project name="CyanogenMod/android_external_libvterm" revision="cm-12.0" />
   <project name="CyanogenMod/android_external_libxml2" />
   <project name="CyanogenMod/android_external_libxslt" />
   <project name="CyanogenMod/android_external_libyuv" groups="libyuv" />
@@ -356,6 +357,7 @@
   <project name="CyanogenMod/android_packages_apps_Tag" />
   <project name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project name="CyanogenMod/android_packages_apps_Torch" />
+  <project name="CyanogenMod/android_packages_apps_Terminal" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project name="CyanogenMod/android_packages_apps_TvSettings" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_UnifiedEmail" />
@@ -396,6 +398,7 @@
   <project name="CyanogenMod/android_sdk" />
   <project name="CyanogenMod/android_system_core" groups="pdk" />
   <project name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project name="CyanogenMod/android_system_extras_su" revision="cm-12.0" />
   <project name="CyanogenMod/android_system_keymaster" revision="cm-12.0" />
   <project name="CyanogenMod/android_system_media" groups="pdk" />
   <project name="CyanogenMod/android_system_netd" groups="pdk" />
