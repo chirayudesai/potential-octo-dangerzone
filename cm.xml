@@ -25,6 +25,7 @@
   <project name="CyanogenMod/android_bootable_recovery" />
   <project name="CyanogenMod/android_bootable_recovery-cm" />
   <project name="CyanogenMod/android_build" groups="pdk" />
+  <project name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" revision="cm-12.0" />
   <project name="CyanogenMod/android_dalvik" />
   <project name="CyanogenMod/android_development" />
   <project name="CyanogenMod/android_device_common" />
