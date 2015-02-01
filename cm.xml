@@ -101,7 +101,7 @@
   <project name="CyanogenMod/android_external_gcc-demangle" groups="pdk" />
   <project name="CyanogenMod/android_external_genext2fs" />
   <project name="CyanogenMod/android_external_giflib" />
-  <project name="CyanogenMod/android_external_gmock" />
+  <project name="CyanogenMod/android_external_gmock" revision="cm-12.0" />
   <project name="CyanogenMod/android_external_google" />
   <project name="CyanogenMod/android_external_google-diff-match-patch" />
   <project name="CyanogenMod/android_external_grub" />
