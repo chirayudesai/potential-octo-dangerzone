@@ -308,6 +308,7 @@
   <project name="CyanogenMod/android_hardware_ril" groups="pdk"  />
   <project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project name="CyanogenMod/android_hardware_ti_omap3" />
+  <project name="CyanogenMod/android_hardware_ti_omap4" />
   <project name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project name="CyanogenMod/android_hardware_ti_wlan" />
   <project name="CyanogenMod/android_hardware_ti_wpan" />
