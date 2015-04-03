@@ -66,6 +66,7 @@
   <project name="CyanogenMod/android_external_checkpolicy" groups="pdk" />
   <project name="CyanogenMod/android_external_chromium" />
   <project name="CyanogenMod/android_external_chromium_org" />
+  <project name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_chromium_org_third_party_openssl" />
   <project name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
   <project name="CyanogenMod/android_external_clang" groups="pdk" />
