@@ -388,7 +388,7 @@
   <project name="platform/packages/apps/Music" />
   <project name="platform/packages/apps/MusicFX" />
   <project name="platform/packages/apps/Nfc" />
-  <project name="platform/packages/apps/OMA-DM" />
+  <!-- <project name="platform/packages/apps/OMA-DM" /> -->
   <project name="platform/packages/apps/OneTimeInitializer" />
   <project name="platform/packages/apps/PackageInstaller" />
   <project name="platform/packages/apps/Phone" />
