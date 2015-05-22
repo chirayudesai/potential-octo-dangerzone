@@ -237,6 +237,9 @@
   <project name="CyanogenMod/android_external_webp" />
   <project name="CyanogenMod/android_external_webrtc" groups="pdk" />
   <project name="CyanogenMod/android_external_whispersystems_TextSecure" />
+  <project name="CyanogenMod/android_external_whispersystems_curve25519-java" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_whispersystems_libtextsecure-java" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_whispersystems_libaxolotl-android" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_whispersystems_WhisperPush" />
   <project name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
