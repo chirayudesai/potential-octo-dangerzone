@@ -175,6 +175,7 @@
   <project name="CyanogenMod/android_external_markdown" />
   <project name="CyanogenMod/android_external_mdnsresponder" groups="pdk" />
   <project name="CyanogenMod/android_external_mksh" groups="pdk" />
+  <project name="CyanogenMod/android_external_mm-dash" />
   <project name="CyanogenMod/android_external_mockwebserver" />
   <project name="CyanogenMod/android_external_mp4parser" />
   <project name="CyanogenMod/android_external_mtpd" />
