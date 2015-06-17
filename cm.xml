@@ -171,6 +171,7 @@
   <project name="CyanogenMod/android_external_llvm" groups="pdk" />
   <project name="CyanogenMod/android_external_lsof" />
   <project name="CyanogenMod/android_external_lz4" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_lzma" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_lzo" />
   <project name="CyanogenMod/android_external_markdown" />
   <project name="CyanogenMod/android_external_mdnsresponder" groups="pdk" />
