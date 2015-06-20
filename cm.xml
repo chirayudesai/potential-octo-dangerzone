@@ -44,6 +44,7 @@
   <project name="CyanogenMod/android_external_android-clat" />
   <project name="CyanogenMod/android_external_android-mock" />
   <project name="CyanogenMod/android_external_android-visualizer" />
+  <project name="CyanogenMod/external_android_support-prebuilt" revision="master" />
   <project name="CyanogenMod/android_external_ant-glob" />
   <project name="CyanogenMod/android_external_antlr" />
   <project name="CyanogenMod/android_external_ant-wireless_ant_native" />
