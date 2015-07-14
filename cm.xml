@@ -411,6 +411,7 @@
   <project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project name="CyanogenMod/android_prebuilt" />
   <project name="CyanogenMod/android_prebuilts_cmsdk" revision="cm-12.1" />
+  <project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" revision="cm-12.1" />
   <project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" revision="cm-12.1" />
   <project name="CyanogenMod/android_prebuilts_misc" groups="pdk" />
   <project name="CyanogenMod/android_sdk" />
