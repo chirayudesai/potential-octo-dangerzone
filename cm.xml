@@ -145,8 +145,10 @@
   <project name="CyanogenMod/android_external_liblzf" groups="pdk" />
   <project name="CyanogenMod/android_external_libmtp" />
   <project name="CyanogenMod/android_external_libncurses" />
+  <project name="CyanogenMod/android_external_libnetfilter_conntrack" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
   <project name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
+  <project name="CyanogenMod/android_external_libnfnetlink" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_libnl-headers" groups="pdk" />
   <project name="CyanogenMod/android_external_libogg" />
   <project name="CyanogenMod/android_external_libpcap" />
@@ -295,6 +297,7 @@
   <project name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project name="CyanogenMod/android_hardware_cm" />
+  <project name="CyanogenMod/android_hardware_cyanogen" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
