@@ -432,6 +432,5 @@
   <project name="CyanogenMod/ion" />
   <project name="CyanogenMod/Superuser" />
   <project name="CyanogenMod/Widgets" />
-  <project name="cyngn/android_vendor_cyngn" />
 
 </manifest>
