@@ -59,6 +59,7 @@
   <project name="CyanogenMod/android_external_bison" groups="pdk" />
   <project name="CyanogenMod/android_external_blktrace" />
   <project name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
+  <project name="CyanogenMod/android_external_boringssl" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_bouncycastle" />
   <project name="CyanogenMod/android_external_bsdiff" groups="pdk" />
   <project name="CyanogenMod/android_external_bson" />
