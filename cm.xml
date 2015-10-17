@@ -354,6 +354,7 @@
   <project name="CyanogenMod/android_packages_apps_Eleven" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_Email" />
   <project name="CyanogenMod/android_packages_apps_Exchange" />
+  <project name="CyanogenMod/android_packages_apps_FMRadio" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_Gallery2" />
   <project name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project name="CyanogenMod/android_packages_apps_InCallUI" />
