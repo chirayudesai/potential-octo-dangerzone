@@ -214,7 +214,6 @@
   <project name="platform/external/okhttp" />
   <project name="platform/external/opencv" />
   <project name="platform/external/openfst" />
-  <project name="platform/external/openssh" />
   <project name="platform/external/owasp/sanitizer" />
   <project name="platform/external/parameter-framework" />
   <project name="platform/external/pcre" />
@@ -567,7 +566,6 @@
   <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" revision="refs/tags/android-5.1.1_r24" />
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" revision="refs/tags/android-5.1.1_r24" />
@@ -576,33 +574,26 @@
   <project name="platform/external/chromium_org/third_party/openssl" revision="refs/tags/android-5.0.2_r1" />
   <project name="name=platform/frameworks/testing" revision="refs/tags/android-5.0.2_r1" />
 
-  <!-- Projects removed in Lollipop (5.0.0), but needed by Kitkat (4.4.4) -->
+  <!-- Projects removed in Lollipop (5.0.0), but needed by Kitkat (4.4.4)
+       Some were re-added in 6.0 -->
   <project name="platform/bootable/diskinstaller" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/external/android-mock" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/chromium" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/chromium_org/third_party/skia/gyp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/chromium_org/third_party/skia/include" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/chromium_org/third_party/skia/src" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/dropbear" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/external/embunit" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/ganymed-ssh2" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/grub" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/harfbuzz" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/hyphenation" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/icu4c" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/external/jmonkeyengine" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/libffi" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/libnl-headers" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/libppp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/libxslt" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/external/marisa-trie" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/open-vcdiff" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/external/openfst" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/external/openssh" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/external/sil-fonts" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/external/v8" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/frameworks/opt/mailcommon" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/hardware/qcom/camera" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/hardware/ti/wlan" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/hardware/ti/wpan" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/packages/apps/VideoEditor" revision="refs/tags/android-4.4.4_r2.0.1" />
