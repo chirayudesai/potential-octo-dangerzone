@@ -572,7 +572,7 @@
 
   <!-- Projects removed in 5.1 -->
   <project name="platform/external/chromium_org/third_party/openssl" revision="refs/tags/android-5.0.2_r1" />
-  <project name="name=platform/frameworks/testing" revision="refs/tags/android-5.0.2_r1" />
+  <project name="platform/frameworks/testing" revision="refs/tags/android-5.0.2_r1" />
 
   <!-- Projects removed in Lollipop (5.0.0), but needed by Kitkat (4.4.4)
        Some were re-added in 6.0 -->
