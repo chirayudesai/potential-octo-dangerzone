@@ -110,6 +110,7 @@
   <project name="CyanogenMod/android_external_gmock" revision="cm-12.0" />
   <project name="CyanogenMod/android_external_google" />
   <project name="CyanogenMod/android_external_google-diff-match-patch" />
+  <project name="CyanogenMod/android_external_gptfdisk" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_grub" />
   <project name="CyanogenMod/android_external_gson" />
   <project name="CyanogenMod/android_external_gtest" groups="pdk" />
@@ -141,6 +142,7 @@
   <project name="CyanogenMod/android_external_junit" />
   <project name="CyanogenMod/android_external_kernel-headers" />
   <project name="CyanogenMod/android_external_kissfft" />
+  <project name="CyanogenMod/android_external_libavc" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_libcap-ng" />
   <project name="CyanogenMod/android_external_libffi" />
   <project name="CyanogenMod/android_external_libgsm" groups="pdk" />
@@ -236,6 +238,7 @@
   <project name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project name="CyanogenMod/android_external_tinyxml" groups="pdk" />
+  <project name="CyanogenMod/android_external_toybox" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_tremolo" groups="pdk" />
   <project name="CyanogenMod/android_external_unrar" />
   <project name="CyanogenMod/android_external_v8" />
@@ -300,6 +303,9 @@
   <project name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project name="CyanogenMod/android_hardware_cm" />
   <project name="CyanogenMod/android_hardware_cyanogen" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_intel_common_libmix" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_intel_img_hwcomposer" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_intel_img_libdrm" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
@@ -338,6 +344,7 @@
   <project name="CyanogenMod/android_packages_apps_Calculator" />
   <project name="CyanogenMod/android_packages_apps_Calendar" />
   <project name="CyanogenMod/android_packages_apps_Camera2" />
+  <project name="CyanogenMod/android_packages_apps_CarrierConfig" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project name="CyanogenMod/android_packages_apps_CMAccount" />
@@ -353,6 +360,7 @@
   <project name="CyanogenMod/android_packages_apps_DSPManager" />
   <project name="CyanogenMod/android_packages_apps_Eleven" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_Email" />
+  <project name="CyanogenMod/android_packages_apps_ExactCalculator" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_Exchange" />
   <project name="CyanogenMod/android_packages_apps_FMRadio" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_Gallery2" />
@@ -362,6 +370,7 @@
   <project name="CyanogenMod/android_packages_apps_Launcher3" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_LockClock" />
   <project name="CyanogenMod/android_packages_apps_ManagedProvisioning" revision="cm-12.0" />
+  <project name="CyanogenMod/android_packages_apps_Messaging" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_Mms" />
   <project name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project name="CyanogenMod/android_packages_apps_Nfc" />
@@ -391,7 +400,9 @@
   <project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <project name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
+  <project name="CyanogenMod/android_packages_providers_BookmarkProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_providers_CalendarProvider" />
+  <project name="CyanogenMod/android_packages_providers_CallLogProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project name="CyanogenMod/android_packages_providers_MediaProvider" />
