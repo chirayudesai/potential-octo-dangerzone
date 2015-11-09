@@ -10,7 +10,7 @@
   
   <project name="platform/manifest" />
 
-  <project name="platform/build" >
+  <project name="platform/build" />
   <project name="platform/abi/cpp" />
   <project name="platform/art" />
   <project name="platform/bionic" />
