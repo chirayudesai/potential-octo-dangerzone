@@ -201,6 +201,7 @@
   <project name="CyanogenMod/android_external_openssh" />
   <project name="CyanogenMod/android_external_openssl" />
   <project name="CyanogenMod/android_external_oprofile" />
+  <project name="CyanogenMod/android_external_p7zip" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_pciutils" />
   <project name="CyanogenMod/android_external_pcre" revision="cm-12.0" />
   <project name="CyanogenMod/android_external_pigz" />
@@ -241,6 +242,7 @@
   <project name="CyanogenMod/android_external_toybox" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_tremolo" />
   <project name="CyanogenMod/android_external_unrar" />
+  <project name="CyanogenMod/android_external_unzip" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_v8" />
   <project name="CyanogenMod/android_external_valgrind" />
   <project name="CyanogenMod/android_external_vim" />
