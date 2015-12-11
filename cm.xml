@@ -306,8 +306,10 @@
   <project name="CyanogenMod/android_hardware_cm" />
   <project name="CyanogenMod/android_hardware_cyanogen" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_intel_common_libmix" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_intel_common_libwsbm" />
   <project name="CyanogenMod/android_hardware_intel_img_hwcomposer" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_intel_img_libdrm" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_intel_img_psb_video" />
   <project name="CyanogenMod/android_hardware_invensense" />
   <project name="CyanogenMod/android_hardware_libhardware" />
   <project name="CyanogenMod/android_hardware_libhardware_legacy" />
@@ -381,6 +383,7 @@
   <project name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project name="CyanogenMod/android_packages_apps_Profiles" revision="cm-12.1" />
   <project name="CyanogenMod/android_packages_apps_Provision" />
+  <project name="CyanogenMod/android_packages_apps_Screencast" />
   <project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project name="CyanogenMod/android_packages_apps_SoundRecorder" />
