@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="refs/tags/android-6.0.0_r26"
+  <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-j="4" />
   
@@ -214,6 +214,7 @@
   <project name="platform/external/okhttp" />
   <project name="platform/external/opencv" />
   <project name="platform/external/openfst" />
+  <project name="platform/external/openssh" />
   <project name="platform/external/owasp/sanitizer" />
   <project name="platform/external/parameter-framework" />
   <project name="platform/external/pcre" />
@@ -348,7 +349,7 @@
   <project name="platform/ndk" />
   <project name="platform/packages/apps/BasicSmsReceiver" />
   <project name="platform/packages/apps/Bluetooth" />
-  <project name="platform/packages/apps/Browser" groups="pdk-fs"/>
+  <project name="platform/packages/apps/Browser" />
   <project name="platform/packages/apps/Calculator" />
   <project name="platform/packages/apps/Calendar" />
   <project name="platform/packages/apps/Camera" />
@@ -357,7 +358,7 @@
   <project name="platform/packages/apps/CellBroadcastReceiver" />
   <project name="platform/packages/apps/CertInstaller" />
   <project name="platform/packages/apps/Contacts" />
-  <project name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
+  <project name="platform/packages/apps/ContactsCommon" />
   <project name="platform/packages/apps/DeskClock" />
   <project name="platform/packages/apps/Dialer" />
   <project name="platform/packages/apps/Email" />
@@ -380,7 +381,7 @@
   <project name="platform/packages/apps/OneTimeInitializer" />
   <project name="platform/packages/apps/PackageInstaller" />
   <project name="platform/packages/apps/Phone" />
-  <project name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform/packages/apps/PhoneCommon" />
   <project name="platform/packages/apps/Protips" />
   <project name="platform/packages/apps/Provision" />
   <project name="platform/packages/apps/QuickSearchBox" />
