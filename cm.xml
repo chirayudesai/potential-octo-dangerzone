@@ -79,6 +79,7 @@
   <project name="CyanogenMod/android_external_connectivity" />
   <project name="CyanogenMod/android_external_crda" />
   <project name="CyanogenMod/android_external_curl" />
+  <project name="CyanogenMod/android_external_cyanogen_UICommon" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_dexmaker" />
   <project name="CyanogenMod/android_external_dhcpcd" />
   <project name="CyanogenMod/android_external_dnsmasq" />
@@ -306,9 +307,12 @@
   <project name="CyanogenMod/android_hardware_cm" />
   <project name="CyanogenMod/android_hardware_cyanogen" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_intel_common_libmix" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_intel_common_libva" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_intel_common_libwsbm" />
+  <project name="CyanogenMod/android_hardware_intel_common_omx-components" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_intel_img_hwcomposer" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_intel_img_libdrm" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_intel_img_psb_headers" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_intel_img_psb_video" />
   <project name="CyanogenMod/android_hardware_invensense" />
   <project name="CyanogenMod/android_hardware_libhardware" />
