@@ -205,6 +205,7 @@
   <project name="CyanogenMod/android_external_p7zip" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_pciutils" />
   <project name="CyanogenMod/android_external_pcre" revision="cm-12.0" />
+  <project name="CyanogenMod/android_external_pdfium" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_pigz" />
   <project name="CyanogenMod/android_external_powertop" />
   <project name="CyanogenMod/android_external_ppp" />
