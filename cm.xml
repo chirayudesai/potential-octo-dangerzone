@@ -425,6 +425,7 @@
   <project name="CyanogenMod/android_packages_screensavers_Basic" />
   <project name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project name="CyanogenMod/android_packages_screensavers_WebView" />
+  <project name="CyanogenMod/android_packages_services_LiveLockScreenService" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_services_Mms" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_services_Telecomm" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_services_Telephony" />
