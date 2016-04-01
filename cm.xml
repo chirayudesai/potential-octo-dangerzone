@@ -422,6 +422,7 @@
   <project name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project name="CyanogenMod/android_packages_providers_TvProvider" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
+  <project name="CyanogenMod/android_packages_providers_WeatherProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_screensavers_Basic" />
   <project name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project name="CyanogenMod/android_packages_screensavers_WebView" />
