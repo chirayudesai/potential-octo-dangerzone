@@ -248,6 +248,7 @@
   <project name="CyanogenMod/android_external_v8" />
   <project name="CyanogenMod/android_external_valgrind" />
   <project name="CyanogenMod/android_external_vim" />
+  <project name="CyanogenMod/android_external_vogar" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_webp" />
   <project name="CyanogenMod/android_external_webrtc" />
   <project name="CyanogenMod/android_external_whispersystems_TextSecure" />
