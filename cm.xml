@@ -137,6 +137,7 @@
   <project name="CyanogenMod/android_external_jmonkeyengine" />
   <project name="CyanogenMod/android_external_jpeg" />
   <project name="CyanogenMod/android_external_jsilver" />
+  <project name="CyanogenMod/android_external_json-c" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_jsr305" />
   <project name="CyanogenMod/android_external_jsr308" />
   <project name="CyanogenMod/android_external_jsr330" />
@@ -407,6 +408,7 @@
   <project name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project name="CyanogenMod/android_packages_apps_VoicePlus" />
+  <project name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_experimental" />
   <project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
