@@ -375,6 +375,7 @@
   <project name="CyanogenMod/android_packages_apps_Exchange" />
   <project name="CyanogenMod/android_packages_apps_FMRadio" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_Gallery2" />
+  <project name="CyanogenMod/android_packages_apps_Gello" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project name="CyanogenMod/android_packages_apps_InCallUI" />
   <project name="CyanogenMod/android_packages_apps_KeyChain" />
@@ -386,6 +387,7 @@
   <project name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project name="CyanogenMod/android_packages_apps_Nfc" />
   <project name="CyanogenMod/android_packages_apps_OMA-DM" revision="cm-12.0" />
+  <project name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project name="CyanogenMod/android_packages_apps_Profiles" revision="cm-12.1" />
