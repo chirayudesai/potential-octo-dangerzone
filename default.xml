@@ -18,6 +18,8 @@
            sync-c="true"
            sync-j="4" />
 
+  <project path="android2" name="chirayudesai/potential-octo-dangerzone" revision="cm/staging/cm-14.0" />
+
   <!-- AOSP Projects -->
 
   <project path="build/make" name="LineageOS/android_build" groups="pdk" >
