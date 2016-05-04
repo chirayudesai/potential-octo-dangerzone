@@ -9,7 +9,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch=".."
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.0.0_r1" />
 
