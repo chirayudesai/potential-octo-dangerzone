@@ -411,6 +411,7 @@
   <project name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project name="CyanogenMod/android_packages_apps_VoicePlus" />
   <project name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" revision="cm-13.0" />
+  <project name="CyanogenMod/android_packages_apps_YahooWeatherProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_experimental" />
   <project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
@@ -420,6 +421,7 @@
   <project name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project name="CyanogenMod/android_packages_providers_CallLogProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_providers_ContactsProvider" />
+  <project name="CyanogenMod/android_packages_providers_DataUsageProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
