@@ -106,6 +106,7 @@
   <project name="CyanogenMod/android_external_fuse" />
   <project name="CyanogenMod/android_external_ganymed-ssh2" />
   <project name="CyanogenMod/android_external_gcc-demangle" />
+  <project name="CyanogenMod/android_external_gello_build" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_genext2fs" />
   <project name="CyanogenMod/android_external_giflib" />
   <project name="CyanogenMod/android_external_gmock" revision="cm-12.0" />
