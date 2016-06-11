@@ -41,6 +41,7 @@
   <project name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_sample" />
   <project name="CyanogenMod/android_external_aac" />
+  <project name="CyanogenMod/android_external_ahbottomnavigation" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_android-clat" />
   <project name="CyanogenMod/android_external_android-mock" />
   <project name="CyanogenMod/android_external_android-visualizer" />
