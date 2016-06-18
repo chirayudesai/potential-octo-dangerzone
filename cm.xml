@@ -76,6 +76,7 @@
   <project name="CyanogenMod/android_external_chromium_org_v8" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_chromium-trace" />
   <project name="CyanogenMod/android_external_clang" />
+  <project name="CyanogenMod/android_external_cmsdk-api-coverage" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_compiler-rt" />
   <project name="CyanogenMod/android_external_connectivity" />
   <project name="CyanogenMod/android_external_crda" />
