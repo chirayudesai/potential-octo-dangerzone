@@ -535,9 +535,6 @@
   <project name="device/asus/deb" revision="refs/tags/android-6.0.1_r3" />
   <project name="device/asus/flo" revision="refs/tags/android-6.0.1_r3" />
   <project name="device/asus/flo-kernel" revision="refs/tags/android-6.0.1_r3" clone-depth="1" />
-  <project name="device/lge/bullhead" revision="refs/tags/android-6.0.1_r3" />
-  <project name="device/lge/bullhead-kernel" revision="refs/tags/android-6.0.1_r3" clone-depth="1" />
-  <project name="device/huawei/angler-kernel" revision="refs/tags/android-6.0.1_r3" />
   <project name="device/lge/hammerhead" revision="refs/tags/android-6.0.1_r3" />
   <project name="device/lge/hammerhead-kernel" revision="refs/tags/android-6.0.1_r3" clone-depth="1" />
   <project name="platform/external/android-mock" revision="refs/tags/android-6.0.1_r3" />
@@ -577,7 +574,6 @@
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/prebuilts/gcc/darwin-x86/host/headers" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/tools/adt/eclipse" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/tools/emulator" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/tools/studio/translation" revision="refs/tags/android-6.0.1_r3" />
