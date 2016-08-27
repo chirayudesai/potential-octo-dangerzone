@@ -75,6 +75,7 @@
   <project name="CyanogenMod/android_external_chromium_org_third_party_openssl" />
   <project name="CyanogenMod/android_external_chromium_org_v8" revision="cm-12.1" />
   <project name="CyanogenMod/android_external_chromium-trace" />
+  <project name="CyanogenMod/android_external_chromium-webview" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_clang" />
   <project name="CyanogenMod/android_external_cmsdk-api-coverage" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_compiler-rt" />
@@ -413,6 +414,7 @@
   <project name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project name="CyanogenMod/android_packages_apps_VoicePlus" />
+  <project name="CyanogenMod/android_packages_apps_WallpaperPicker" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_YahooWeatherProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_experimental" />
@@ -436,10 +438,14 @@
   <project name="CyanogenMod/android_packages_screensavers_Basic" />
   <project name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project name="CyanogenMod/android_packages_screensavers_WebView" />
+  <project name="CyanogenMod/android_packages_services_CMAudioService" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_services_LiveLockScreenService" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_services_Mms" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_services_Telecomm" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_services_Telephony" />
+  <project name="CyanogenMod/android_packages_services_ThemeManagerService" revision="cm-13.0" />
+  <project name="CyanogenMod/android_packages_services_WeatherService" revision="cm-13.0" />
+  <project name="CyanogenMod/android_packages_themes_HexoLibre" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
