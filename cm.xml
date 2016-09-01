@@ -153,6 +153,7 @@
   <project name="CyanogenMod/android_external_libcap-ng" />
   <project name="CyanogenMod/android_external_libffi" />
   <project name="CyanogenMod/android_external_libgsm" />
+  <project name="CyanogenMod/android_external_libhevc" revision="staging/cm-14.0" />
   <project name="CyanogenMod/android_external_liblzf" />
   <project name="CyanogenMod/android_external_libmtp" />
   <project name="CyanogenMod/android_external_libncurses" />
@@ -446,6 +447,7 @@
   <project name="CyanogenMod/android_packages_services_Telecomm" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_services_Telephony" />
   <project name="CyanogenMod/android_packages_services_ThemeManagerService" revision="cm-13.0" />
+  <project name="CyanogenMod/android_packages_apps_TV" revision="staging/cm-14.0" />
   <project name="CyanogenMod/android_packages_services_WeatherService" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_themes_HexoLibre" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_wallpapers_Basic" />
