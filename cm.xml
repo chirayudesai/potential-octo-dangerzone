@@ -369,6 +369,7 @@
   <project name="CyanogenMod/android_packages_apps_CMBugreport" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project name="CyanogenMod/android_packages_apps_CMHome" />
+  <project name="CyanogenMod/android_packages_apps_CMParts" revision="staging/cm-14.0" />
   <project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project name="CyanogenMod/android_packages_apps_Contacts" />
@@ -476,6 +477,7 @@
   <project name="CyanogenMod/android_system_security" />
   <project name="CyanogenMod/android_system_vold" />
   <project name="CyanogenMod/android_vendor_cm" />
+  <project name="CyanogenMod/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" />
   <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" />
   <project name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" revision="cm-13.0" />
   <project name="CyanogenMod/android_vendor_qcom_opensource_dpm" revision="cm-13.0" />
