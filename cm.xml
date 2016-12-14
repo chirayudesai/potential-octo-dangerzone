@@ -137,6 +137,7 @@
   <project name="CyanogenMod/android_external_javasqlite" />
   <project name="CyanogenMod/android_external_javassist" />
   <project name="CyanogenMod/android_external_jdiff" />
+  <project name="CyanogenMod/android_external_jemalloc" revision="cm-14.1" />
   <project name="CyanogenMod/android_external_jhead" />
   <project name="CyanogenMod/android_external_jmdns" />
   <project name="CyanogenMod/android_external_jmonkeyengine" />
@@ -379,6 +380,7 @@
   <project name="CyanogenMod/android_packages_apps_DSPManager" />
   <project name="CyanogenMod/android_packages_apps_Eleven" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_Email" />
+  <project name="CyanogenMod/android_packages_apps_EmergencyInfo" revision="cm-14.1" />
   <project name="CyanogenMod/android_packages_apps_ExactCalculator" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_apps_Exchange" />
   <project name="CyanogenMod/android_packages_apps_FMRadio" revision="cm-13.0" />
@@ -400,6 +402,7 @@
   <project name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project name="CyanogenMod/android_packages_apps_Profiles" revision="cm-12.1" />
   <project name="CyanogenMod/android_packages_apps_Provision" />
+  <project name="CyanogenMod/android_packages_apps_SafetyRegulatoryInfo" revision="cm-14.1" />
   <project name="CyanogenMod/android_packages_apps_Screencast" />
   <project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="CyanogenMod/android_packages_apps_SmartCardService" />
@@ -407,6 +410,7 @@
   <project name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project name="CyanogenMod/android_packages_apps_Stk" />
+  <project name="CyanogenMod/android_packages_apps_StorageManager" revision="cm-14.1" />
   <project name="CyanogenMod/android_packages_apps_SetupWizard" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_Tag" />
   <project name="CyanogenMod/android_packages_apps_ThemeChooser" />
@@ -426,6 +430,7 @@
   <project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <project name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
+  <project name="CyanogenMod/android_packages_providers_BlockedNumberProvider" revision="cm-14.1" />
   <project name="CyanogenMod/android_packages_providers_BookmarkProvider" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project name="CyanogenMod/android_packages_providers_CallLogProvider" revision="cm-13.0" />
@@ -442,6 +447,7 @@
   <project name="CyanogenMod/android_packages_screensavers_Basic" />
   <project name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project name="CyanogenMod/android_packages_screensavers_WebView" />
+  <project name="CyanogenMod/android_packages_services_Car" revision="cm-14.1" />
   <project name="CyanogenMod/android_packages_services_CMAudioService" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_services_LiveLockScreenService" revision="cm-13.0" />
   <project name="CyanogenMod/android_packages_services_Mms" revision="cm-12.0" />
@@ -464,6 +470,8 @@
   <project name="CyanogenMod/android_prebuilts_cmsdk" revision="cm-12.1" />
   <project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" revision="cm-12.1" />
   <project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" revision="cm-12.1" />
+  <project name="CyanogenMod/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" revision="cm-14.1" />
+  <project name="CyanogenMod/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" revision="cm-14.1" />
   <project name="CyanogenMod/android_prebuilts_misc" />
   <project name="CyanogenMod/android_sdk" />
   <project name="CyanogenMod/android_system_bt" revision="cm-13.0" />
@@ -475,6 +483,8 @@
   <project name="CyanogenMod/android_system_netd" />
   <project name="CyanogenMod/android_system_qcom" />
   <project name="CyanogenMod/android_system_security" />
+  <project name="CyanogenMod/android_system_sepolicy" revison="cm-14.1" />
+  <project name="CyanogenMod/android_system_tools_aidl" revision="cm-14.1" />
   <project name="CyanogenMod/android_system_vold" />
   <project name="CyanogenMod/android_vendor_cm" />
   <project name="CyanogenMod/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" />
