@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="refs/tags/android-7.0.0_r1"
+  <default revision="refs/tags/android-7.1.1_r1"
            remote="aosp"
            sync-j="4" />
   
@@ -31,6 +31,7 @@
   <project name="device/generic/armv7-a-neon" />
   <project name="device/generic/common" />
   <project name="device/generic/goldfish" />
+  <project name="device/generic/goldfish-opengl" />
   <project name="device/generic/mips" />
   <project name="device/generic/mips64" />
   <project name="device/generic/mini-emulator-arm64" />
@@ -48,6 +49,8 @@
   <project name="device/google/contexthub" />
   <project name="device/google/dragon" />
   <project name="device/google/dragon-kernel" clone-depth="1" />
+  <project name="device/google/marlin" />
+  <project name="device/google/marlin-kernel" clone-depth="1" />
   <project name="device/htc/flounder" />
   <project name="device/htc/flounder-kernel" clone-depth="1" />
   <project name="device/huawei/angler" />
@@ -145,6 +148,8 @@
   <project name="platform/external/harfbuzz_ng" />
   <project name="platform/external/hyphenation-patterns" />
   <project name="platform/external/icu" />
+  <project name="platform/external/ImageMagick" />
+  <project name="platform/external/ims" />
   <project name="platform/external/iproute2" />
   <project name="platform/external/ipsec-tools" />
   <project name="platform/external/iptables" />
@@ -182,6 +187,7 @@
   <project name="platform/external/libdaemon" />
   <project name="platform/external/libevent" />
   <project name="platform/external/libexif" />
+  <project name="platform/external/libgdx" />
   <project name="platform/external/libgsm" />
   <project name="platform/external/libhevc" />
   <project name="platform/external/libjpeg-turbo" />
@@ -289,6 +295,7 @@
   <project name="platform/external/tpm2" />
   <project name="platform/external/tremolo" />
   <project name="platform/external/unicode" />
+  <project name="platform/external/universal-tween-engine" />
   <project name="platform/external/v8" />
   <project name="platform/external/valgrind" />
   <project name="platform/external/vboot_reference" />
@@ -420,17 +427,20 @@
   <project name="platform/packages/apps/Protips" />
   <project name="platform/packages/apps/Provision" />
   <project name="platform/packages/apps/QuickSearchBox" />
+  <project name="platform/packages/apps/SafetyRegulatoryInfo" />
   <project name="platform/packages/apps/Settings" />
   <project name="platform/packages/apps/SoundRecorder" />
   <project name="platform/packages/apps/SpareParts" />
   <project name="platform/packages/apps/SpeechRecorder" />
   <project name="platform/packages/apps/Stk" />
+  <project name="platform/packages/apps/StorageManager" />
   <project name="platform/packages/apps/Tag" />
   <project name="platform/packages/apps/Terminal" />
   <project name="platform/packages/apps/Test/connectivity" />
   <project name="platform/packages/apps/TvSettings" />
   <project name="platform/packages/apps/TV" />
   <project name="platform/packages/apps/UnifiedEmail" />
+  <project name="platform/packages/apps/WallpaperPicker" />
   <project name="platform/packages/experimental" />
   <project name="platform/packages/inputmethods/LatinIME" />
   <project name="platform/packages/inputmethods/OpenWnn" />
@@ -571,13 +581,13 @@
   <project name="platform/packages/wallpapers/NoiseField" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/packages/wallpapers/PhaseBeam" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/prebuilts/eclipse-build-deps-sources" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/prebuilts/gcc/darwin-x86/host/headers" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/tools/adt/eclipse" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/tools/emulator" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/tools/studio/translation" revision="refs/tags/android-6.0.1_r3" />
-
+  <!-- Re-added in 7.1.1 -->
+  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="refs/tags/android-6.0.1_r3" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/tags/android-6.0.1_r3" />
 
   <!-- Projects removed in 6.0 -->
   <project name="platform/bootable/bootloader/legacy" revision="refs/tags/android-5.1.1_r24" />
