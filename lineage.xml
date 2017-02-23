@@ -403,6 +403,7 @@
   <project name="LineageOS/android_packages_apps_PhoneCommon" />
   <project name="LineageOS/android_packages_apps_Profiles" revision="cm-12.1" />
   <project name="LineageOS/android_packages_apps_Provision" />
+  <project name="LineageOS/android_packages_apps_Recorder" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Screencast" />
   <project name="LineageOS/android_packages_apps_Settings" />
@@ -491,6 +492,7 @@
   <project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" />
+  <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" revision="cm-14.1" />
   <project name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_display-frameworks" revision="cm-13.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_dpm" revision="cm-13.0" />
