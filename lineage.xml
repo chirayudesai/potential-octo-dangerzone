@@ -376,6 +376,7 @@
   <project name="LineageOS/android_packages_apps_CMWallpapers" />
   <project name="LineageOS/android_packages_apps_Contacts" />
   <project name="LineageOS/android_packages_apps_ContactsCommon" />
+  <project name="LineageOS/android_packages_apps_CustomTiles" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_DeskClock" />
   <project name="LineageOS/android_packages_apps_Dialer" />
   <project name="LineageOS/android_packages_apps_DSPManager" />
