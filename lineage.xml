@@ -503,4 +503,13 @@
   <project name="LineageOS/Superuser" />
   <project name="LineageOS/Widgets" />
 
+  <project name="LineageOS/cm_crowdin" revision="master" />
+  <project name="LineageOS/cve_tracker" revision="master" />
+  <project name="LineageOS/hudson" revision="master" />
+  <project name="LineageOS/mirror" revision="master" />
+  <project name="LineageOS/tribble-tracker" revision="master" />
+  <project name="LineageOS/lineageos_updater" revision="master" />
+  <project name="LineageOS/www" revision="master" />
+  <project name="LineageOS/lineage_wiki" revision="master" />
+
 </manifest>
