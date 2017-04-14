@@ -11,6 +11,7 @@
            remote="github"
            sync-j="4" />
 
+  <project name="platform_manifest" />
   <project name="platform_build" />
   <project name="platform_art" />
   <project name="platform_bionic" />
