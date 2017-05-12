@@ -152,6 +152,7 @@
   <project name="LineageOS/android_external_kissfft" />
   <project name="LineageOS/android_external_libavc" revision="cm-13.0" />
   <project name="LineageOS/android_external_libcap-ng" />
+  <project name="LineageOS/android_external_libchrome" revision="cm-14.1" />
   <project name="LineageOS/android_external_libffi" />
   <project name="LineageOS/android_external_libgsm" />
   <project name="LineageOS/android_external_libhevc" revision="staging/cm-14.0" />
@@ -391,6 +392,7 @@
   <project name="LineageOS/android_packages_apps_HTMLViewer" />
   <project name="LineageOS/android_packages_apps_InCallUI" />
   <project name="LineageOS/android_packages_apps_KeyChain" />
+  <project name="LineageOS/android_packages_apps_Jelly" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Launcher3" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_LockClock" />
   <project name="LineageOS/android_packages_apps_ManagedProvisioning" revision="cm-12.0" />
@@ -503,6 +505,7 @@
   <project name="LineageOS/Superuser" />
   <project name="LineageOS/Widgets" />
 
+  <project name="LineageOS/ansible" revision="master" />
   <project name="LineageOS/cm_crowdin" revision="master" />
   <project name="LineageOS/cve_tracker" revision="master" />
   <project name="LineageOS/hudson" revision="master" />
@@ -511,5 +514,8 @@
   <project name="LineageOS/lineageos_updater" revision="master" />
   <project name="LineageOS/www" revision="master" />
   <project name="LineageOS/lineage_wiki" revision="master" />
+
+  <project name="LineageOS/contributors-cloud-generator" revision="master" />
+  <project name="LineageOS/scripts" revision="master" />
 
 </manifest>
