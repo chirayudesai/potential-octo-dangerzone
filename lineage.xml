@@ -512,6 +512,7 @@
   <project name="LineageOS/mirror" revision="master" />
   <project name="LineageOS/tribble-tracker" revision="master" />
   <project name="LineageOS/lineageos_updater" revision="master" />
+  <project name="LineageOS/slackbot" revision="master" />
   <project name="LineageOS/www" revision="master" />
   <project name="LineageOS/lineage_wiki" revision="master" />
 
