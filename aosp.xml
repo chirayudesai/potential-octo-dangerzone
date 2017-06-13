@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="refs/tags/android-7.1.1_r1"
+  <default revision="refs/tags/android-7.1.2_r17"
            remote="aosp"
            sync-j="4" />
   
@@ -18,6 +18,7 @@
   <project name="platform/art" />
   <project name="platform/bionic" />
   <project name="platform/bootable/recovery" />
+  <project name="platform/compatibility/cdd" />
   <project name="platform/cts" />
   <project name="platform/dalvik" />
   <project name="platform/developers/build" />
@@ -67,6 +68,7 @@
   <project name="platform/external/aac" />
   <project name="platform/external/adt-infra" />
   <project name="platform/external/android-clat" />
+  <project name="platform/external/android-mock" />
   <project name="platform/external/androidplot" />
   <project name="platform/external/ant-glob" />
   <project name="platform/external/antlr" />
@@ -117,6 +119,7 @@
   <project name="platform/external/eclipse-windowbuilder" />
   <project name="platform/external/eigen" />
   <project name="platform/external/elfutils" />
+  <project name="platform/external/embunit" />
   <project name="platform/external/emma" />
   <project name="platform/external/esd" />
   <project name="platform/external/expat" />
@@ -166,6 +169,7 @@
   <project name="platform/external/jhead" />
   <project name="platform/external/jline" />
   <project name="platform/external/jmdns" />
+  <project name="platform/external/jmonkeyengine" />
   <project name="platform/external/jsilver" />
   <project name="platform/external/jsmn" />
   <project name="platform/external/jsoncpp" />
@@ -218,10 +222,12 @@
   <project name="platform/external/libyuv" />
   <project name="platform/external/littlemock" />
   <project name="platform/external/lld" />
+  <project name="platform/external/lldb" />
   <project name="platform/external/llvm" />
   <project name="platform/external/ltrace" />
   <project name="platform/external/lz4" />
   <project name="platform/external/lzma" />
+  <project name="platform/external/marisa-trie" />
   <project name="platform/external/markdown" />
   <project name="platform/external/mdnsresponder" />
   <project name="platform/external/mesa3d" />
@@ -250,6 +256,8 @@
   <project name="platform/external/okhttp" />
   <project name="platform/external/opencv" />
   <project name="platform/external/opencv3" />
+  <project name="platform/external/openfst" />
+  <project name="platform/external/openssh" />
   <project name="platform/external/owasp/sanitizer" />
   <project name="platform/external/parameter-framework" />
   <project name="platform/external/pcre" />
@@ -427,6 +435,7 @@
   <project name="platform/packages/apps/Protips" />
   <project name="platform/packages/apps/Provision" />
   <project name="platform/packages/apps/QuickSearchBox" />
+  <project name="platform/packages/apps/RetailDemo" />
   <project name="platform/packages/apps/SafetyRegulatoryInfo" />
   <project name="platform/packages/apps/Settings" />
   <project name="platform/packages/apps/SoundRecorder" />
@@ -526,6 +535,7 @@
   <project name="platform/system/vold" />
   <project name="platform/system/weaved" />
   <project name="platform/system/webservd" />
+  <project name="platform/test/vts" />
   <project name="toolchain/binutils" />
   <project name="platform/tools/adt/idea" />
   <project name="platform/tools/base" />
@@ -547,19 +557,12 @@
   <project name="device/asus/flo-kernel" revision="refs/tags/android-6.0.1_r3" clone-depth="1" />
   <project name="device/lge/hammerhead" revision="refs/tags/android-6.0.1_r3" />
   <project name="device/lge/hammerhead-kernel" revision="refs/tags/android-6.0.1_r3" clone-depth="1" />
-  <project name="platform/external/android-mock" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/external/dhcpcd" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/external/embunit" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/external/jack" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/external/jmonkeyengine" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/external/jpeg" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/external/libseccomp-helper" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/external/libssh2" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/external/linux-tools-perf" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/external/lldb" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/external/marisa-trie" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/external/openfst" revision="refs/tags/android-6.0.1_r3" />
-  <project name="platform/external/openssh" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/external/sepolicy" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/frameworks/mff" revision="refs/tags/android-6.0.1_r3" />
   <project name="platform/frameworks/opt/carddav" revision="refs/tags/android-6.0.1_r3" />
