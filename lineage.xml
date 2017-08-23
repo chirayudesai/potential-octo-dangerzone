@@ -26,6 +26,7 @@
   <project name="LineageOS/android_bootable_recovery-cm" />
   <project name="LineageOS/android_build" />
   <project name="LineageOS/android_build_kati" revision="staging/cm-14.0" />
+  <project name="LineageOS/android_build_soong" revision="lineage-15.0" />
   <project name="LineageOS/android_cts" revision="cm-12.0" />
   <project name="LineageOS/android_dalvik" />
   <project name="LineageOS/android_development" />
@@ -39,6 +40,7 @@
   <project name="LineageOS/android_device_google_accessory_arduino" />
   <project name="LineageOS/android_device_google_accessory_demokit" />
   <project name="LineageOS/android_device_google_atv" revision="cm-12.1" />
+  <project name="LineageOS/android_device_lineage_sepolicy" revision="lineage-15.0" />
   <project name="LineageOS/android_device_qcom_sepolicy" revision="cm-12.0" />
   <project name="LineageOS/android_device_sample" />
   <project name="LineageOS/android_external_aac" />
@@ -229,6 +231,7 @@
   <project name="LineageOS/android_external_rsync" />
   <project name="LineageOS/android_external_safe-iop" />
   <project name="LineageOS/android_external_sepolicy" />
+  <project name="LineageOS/android_external_selinux" revison="lineage-15.0" />
   <project name="LineageOS/android_external_skia" />
   <project name="LineageOS/android_external_smali" />
   <project name="LineageOS/android_external_sonivox" />
@@ -380,6 +383,7 @@
   <project name="LineageOS/android_packages_apps_CustomTiles" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_DeskClock" />
   <project name="LineageOS/android_packages_apps_Dialer" />
+  <project name="LineageOS/android_packages_apps_DocumentsUI" revision="lineage-15.0" />
   <project name="LineageOS/android_packages_apps_DSPManager" />
   <project name="LineageOS/android_packages_apps_Eleven" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_Email" />
@@ -494,6 +498,7 @@
   <project name="LineageOS/android_system_vold" />
   <project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" />
+  <project name="LineageOS/android_vendor_lineage" revision="lineage-15.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" />
   <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" revision="cm-14.1" />
   <project name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" />
