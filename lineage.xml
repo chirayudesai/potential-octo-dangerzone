@@ -456,6 +456,7 @@
   <project name="LineageOS/android_packages_screensavers_Basic" />
   <project name="LineageOS/android_packages_screensavers_PhotoTable" />
   <project name="LineageOS/android_packages_screensavers_WebView" />
+  <project name="LineageOS/android_packages_services_BuiltInPrintService" revision="lineage-15.0" />
   <project name="LineageOS/android_packages_services_Car" revision="cm-14.1" />
   <project name="LineageOS/android_packages_services_CMAudioService" revision="cm-13.0" />
   <project name="LineageOS/android_packages_services_LiveLockScreenService" revision="cm-13.0" />

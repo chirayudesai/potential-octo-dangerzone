@@ -509,7 +509,6 @@
   <project name="platform/prebuilts/eclipse" />
   <project name="platform/prebuilts/eclipse-build-deps" />
   <project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <project name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
@@ -588,7 +587,6 @@
   <project name="platform/tools/studio/cloud" />
   <project name="platform/tools/swt" />
   <project name="platform/tools/test/connectivity" />
-  <project name="platform/tools/tradefederation" />
   <project name="platform/tools/tradefederation/contrib" />
 
   <!-- Projects removed in 8.0 -->
@@ -636,7 +634,6 @@
   <project name="platform/system/nativepower" revision="refs/tags/android-7.1.2_r17" />
   <project name="platform/system/weaved" revision="refs/tags/android-7.1.2_r17" />
   <project name="platform/system/webservd" revision="refs/tags/android-7.1.2_r17" />
-  <project name="platform/tools/tradefederation" revision="refs/tags/android-7.1.2_r17" />
 
   <!-- Projects removed in 7.0 -->
   <project name="platform/developers/docs" revision="refs/tags/android-6.0.1_r3" />
@@ -736,7 +733,7 @@
   <project name="platform/external/smack" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/external/srec" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/external/stlport" revision="refs/tags/android-5.1.1_r24" />
-  <project name="platform/external/stressapptest" revision="refs/tags/android-5.1.1_r24" />
+  <!-- <project name="platform/external/stressapptest" revision="refs/tags/android-5.1.1_r24" /> -->
   <project name="platform/external/yaffs2" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/hardware/intel/img/libdrm" revision="refs/tags/android-5.1.1_r24" />
   <project name="platform/hardware/nvidia/tegra124" revision="refs/tags/android-5.1.1_r24" />
