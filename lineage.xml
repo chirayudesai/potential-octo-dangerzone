@@ -185,6 +185,8 @@
   <project name="LineageOS/android_external_libxml2" />
   <project name="LineageOS/android_external_libxslt" />
   <project name="LineageOS/android_external_libyuv" />
+  <project name="LineageOS/android_external_lineage-sdk-api-coverage" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_lineage_UICommon" revision="lineage-15.0" />
   <project name="LineageOS/android_external_linux-tools-perf" />
   <project name="LineageOS/android_external_littlemock" />
   <project name="LineageOS/android_external_llvm" />
@@ -329,9 +331,12 @@
   <project name="LineageOS/android_hardware_intel_img_libdrm" revision="cm-12.1" />
   <project name="LineageOS/android_hardware_intel_img_psb_headers" revision="cm-13.0" />
   <project name="LineageOS/android_hardware_intel_img_psb_video" />
+  <project name="LineageOS/android_hardware_interfaces" revision="lineage-15.0" />
   <project name="LineageOS/android_hardware_invensense" />
   <project name="LineageOS/android_hardware_libhardware" />
   <project name="LineageOS/android_hardware_libhardware_legacy" />
+  <project name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-15.0" />
+  <project name="LineageOS/android_hardware_lineage_livedisplay" revision="lineage-15.0" />
   <project name="LineageOS/android_hardware_nvidia_audio" revision="cm-12.0" />
   <project name="LineageOS/android_hardware_nvidia_tegra124" revision="cm-12.0" />
   <project name="LineageOS/android_hardware_qcom_audio-caf" />
@@ -359,6 +364,7 @@
   <project name="LineageOS/android_hardware_ti_wpan" />
   <project name="LineageOS/android_libcore" />
   <project name="LineageOS/android_libnativehelper" />
+  <project name="LineageOS/android_lineage-sdk" revision="lineage-15.0" />
   <project name="LineageOS/android_packages_apps_Apollo" />
   <project name="LineageOS/android_packages_apps_AudioFX" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_BasicSmsReceiver" />
@@ -398,6 +404,7 @@
   <project name="LineageOS/android_packages_apps_KeyChain" />
   <project name="LineageOS/android_packages_apps_Jelly" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Launcher3" revision="cm-12.0" />
+  <project name="LineageOS/android_packages_apps_LineageParts" revision="lineage-15.0" />
   <project name="LineageOS/android_packages_apps_LockClock" />
   <project name="LineageOS/android_packages_apps_ManagedProvisioning" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_Messaging" revision="cm-13.0" />
@@ -459,6 +466,7 @@
   <project name="LineageOS/android_packages_services_BuiltInPrintService" revision="lineage-15.0" />
   <project name="LineageOS/android_packages_services_Car" revision="cm-14.1" />
   <project name="LineageOS/android_packages_services_CMAudioService" revision="cm-13.0" />
+  <project name="LineageOS/android_packages_services_LineageAudioService" revision="lineage-15.0" />
   <project name="LineageOS/android_packages_services_LiveLockScreenService" revision="cm-13.0" />
   <project name="LineageOS/android_packages_services_Mms" revision="cm-12.0" />
   <project name="LineageOS/android_packages_services_Telecomm" revision="cm-12.0" />
@@ -484,18 +492,24 @@
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" revision="cm-14.1" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" revision="cm-14.1" />
   <project name="LineageOS/android_prebuilts_misc" />
+  <project name="LineageOS/android_prebuilts_lineage-sdk" revision="lineage-15.0" />
   <project name="LineageOS/android_sdk" />
   <project name="LineageOS/android_system_bt" revision="cm-13.0" />
   <project name="LineageOS/android_system_core" />
   <project name="LineageOS/android_system_extras" />
   <project name="LineageOS/android_system_extras_su" revision="cm-12.0" />
+  <project name="LineageOS/android_system_hardware_interfaces" revision="lineage-15.0" />
   <project name="LineageOS/android_system_keymaster" revision="cm-12.0" />
+  <project name="LineageOS/android_system_libhidl" revision="lineage-15.0" />
   <project name="LineageOS/android_system_media" />
   <project name="LineageOS/android_system_netd" />
+  <project name="LineageOS/android_system_nfc" revision="lineage-15.0" />
   <project name="LineageOS/android_system_qcom" />
   <project name="LineageOS/android_system_security" />
   <project name="LineageOS/android_system_sepolicy" revison="cm-14.1" />
   <project name="LineageOS/android_system_tools_aidl" revision="cm-14.1" />
+  <project name="LineageOS/android_system_tools_dtbtool" revision="lineage-15.0" />
+  <project name="LineageOS/android_system_tools_hidl" revision="lineage-15.0" />
   <project name="LineageOS/android_system_vold" />
   <project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" />
@@ -505,6 +519,8 @@
   <project name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_display-frameworks" revision="cm-13.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_dpm" revision="cm-13.0" />
+  <project name="LineageOS/android_vendor_qcom_opensource_interfaces" revision="lineage-15.0" />
+  <project name="LineageOS/android_vendor_qcom_opensource_rcs-service" revision="lineage-15.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_time-services" revision="cm-13.0" />
   <project name="LineageOS/cm_platform_sdk" revision="cm-12.1" />
   <project name="LineageOS/ion" />
