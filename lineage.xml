@@ -175,6 +175,7 @@
   <project name="LineageOS/android_external_libselinux" />
   <project name="LineageOS/android_external_libsepol" />
   <project name="LineageOS/android_external_libtar" />
+  <project name="LineageOS/android_external_libtextclassifier" />
   <project name="LineageOS/android_external_libtruezip" />
   <project name="LineageOS/android_external_libusb" />
   <project name="LineageOS/android_external_libusb-compat" />
@@ -335,6 +336,7 @@
   <project name="LineageOS/android_hardware_libhardware" />
   <project name="LineageOS/android_hardware_libhardware_legacy" />
   <project name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-15.0" />
+  <project name="LineageOS/android_hardware_lineage_lineagehw" />
   <project name="LineageOS/android_hardware_lineage_livedisplay" revision="lineage-15.0" />
   <project name="LineageOS/android_hardware_nvidia_audio" revision="cm-12.0" />
   <project name="LineageOS/android_hardware_nvidia_tegra124" revision="cm-12.0" />
@@ -365,6 +367,7 @@
   <project name="LineageOS/android_libnativehelper" />
   <project name="LineageOS/android_lineage-sdk" revision="lineage-15.0" />
   <project name="LineageOS/android_packages_apps_Apollo" />
+  <project name="LineageOS/android_packages_apps_AppDrawer" />
   <project name="LineageOS/android_packages_apps_AudioFX" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_BasicSmsReceiver" />
   <project name="LineageOS/android_packages_apps_Bluetooth" />
@@ -403,6 +406,7 @@
   <project name="LineageOS/android_packages_apps_KeyChain" />
   <project name="LineageOS/android_packages_apps_Jelly" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Launcher3" revision="cm-12.0" />
+  <project name="LineageOS/android_packages_apps_LineageCustomizer" />
   <project name="LineageOS/android_packages_apps_LineageParts" revision="lineage-15.0" />
   <project name="LineageOS/android_packages_apps_LockClock" />
   <project name="LineageOS/android_packages_apps_ManagedProvisioning" revision="cm-12.0" />
@@ -444,6 +448,7 @@
   <project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <project name="LineageOS/android_packages_inputmethods_OpenWnn" />
   <project name="LineageOS/android_packages_inputmethods_PinyinIME" />
+  <project name="LineageOS/android_packages_overlays_Lineage" />
   <project name="LineageOS/android_packages_providers_ApplicationsProvider" />
   <project name="LineageOS/android_packages_providers_BlockedNumberProvider" revision="cm-14.1" />
   <project name="LineageOS/android_packages_providers_BookmarkProvider" revision="cm-13.0" />
@@ -483,6 +488,7 @@
   <project name="LineageOS/android_packages_wallpapers_NoiseField" />
   <project name="LineageOS/android_packages_wallpapers_PhaseBeam" />
   <project name="LineageOS/android_packages_wallpapers_PhotoPhase" />
+  <project name="LineageOS/android_platform_testing" />
   <project name="LineageOS/android_prebuilt" />
   <project name="LineageOS/android_prebuilts_cmsdk" revision="cm-12.1" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" revision="cm-12.1" />
