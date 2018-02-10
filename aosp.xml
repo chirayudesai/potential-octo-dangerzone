@@ -620,6 +620,7 @@
   <project name="platform/tools/studio/cloud" />
   <project name="platform/tools/swt" />
   <project name="platform/tools/test/connectivity" />
+  <project name="platform/tools/tradefederation" />
   <project name="platform/tools/tradefederation/contrib" />
 
   <!-- Projects removed in 8.0 -->
