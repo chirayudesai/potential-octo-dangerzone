@@ -494,6 +494,7 @@
   <project name="LineageOS/android_packages_wallpapers_PhotoPhase" />
   <project name="LineageOS/android_platform_testing" />
   <project name="LineageOS/android_prebuilt" />
+  <project name="LineageOS/android_prebuilts_build-tools" />
   <project name="LineageOS/android_prebuilts_cmsdk" revision="cm-12.1" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" revision="cm-12.1" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" revision="cm-14.1" />
@@ -538,6 +539,7 @@
   <project name="LineageOS/Widgets" />
 
   <project name="LineageOS/ansible" revision="master" />
+  <project name="LineageOS/charter" revision="master" />
   <project name="LineageOS/cm_crowdin" revision="master" />
   <project name="LineageOS/cve_tracker" revision="master" />
   <project name="LineageOS/hudson" revision="master" />
