@@ -212,6 +212,7 @@
   <project name="LineageOS/android_external_ntfs-3g" />
   <project name="LineageOS/android_external_oauth" />
   <project name="LineageOS/android_external_okhttp" />
+  <project name="LineageOS/android_external_one-true-awk" />
   <project name="LineageOS/android_external_opencv" />
   <project name="LineageOS/android_external_openfst" />
   <project name="LineageOS/android_external_openssh" />
@@ -356,6 +357,7 @@
   <project name="LineageOS/android_hardware_qcom_media" />
   <project name="LineageOS/android_hardware_qcom_msm8960" />
   <project name="LineageOS/android_hardware_qcom_msm8x74" />
+  <project name="LineageOS/android_hardware_qcom_neuralnetworks_hvxservice" />
   <project name="LineageOS/android_hardware_qcom_power" />
   <project name="LineageOS/android_hardware_qcom_sensors" />
   <project name="LineageOS/android_hardware_qcom_wlan" />
