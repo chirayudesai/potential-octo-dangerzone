@@ -33,7 +33,6 @@
   <project name="platform_external_Silence" />
   <project name="platform_external_sqlite" />
   <project name="platform_external_svox" remote="bitbucket" />
-  <project name="platform_external_wpa_supplicant_8" />
   <project name="platform_frameworks_av" />
   <project name="platform_frameworks_base" />
   <project name="platform_frameworks_ex" />
