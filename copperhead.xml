@@ -22,7 +22,6 @@
   <project name="device_google_marlin" />
   <project name="device_huawei_angler" />
   <project name="device_lge_bullhead" />
-  <project name="platform_external_chromium" remote="bitbucket" />
   <project name="platform_external_conscrypt" />
   <project name="platform_external_clang" />
   <project name="platform_external_Etar-Calendar" />
