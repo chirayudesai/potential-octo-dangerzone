@@ -360,6 +360,8 @@
   <project name="LineageOS/android_hardware_qcom_neuralnetworks_hvxservice" />
   <project name="LineageOS/android_hardware_qcom_power" />
   <project name="LineageOS/android_hardware_qcom_sensors" />
+  <project name="LineageOS/android_hardware_qcom_thermal" />
+  <project name="LineageOS/android_hardware_qcom_vr" />
   <project name="LineageOS/android_hardware_qcom_wlan" />
   <project name="LineageOS/android_hardware_ril"  />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos5" />
@@ -368,6 +370,7 @@
   <project name="LineageOS/android_hardware_ti_omap4xxx" />
   <project name="LineageOS/android_hardware_ti_wlan" />
   <project name="LineageOS/android_hardware_ti_wpan" />
+  <project name="LineageOS/android_kernel_modules_wireguard" />
   <project name="LineageOS/android_libcore" />
   <project name="LineageOS/android_libnativehelper" />
   <project name="LineageOS/android_lineage-sdk" revision="lineage-15.0" />
