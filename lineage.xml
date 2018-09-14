@@ -156,6 +156,7 @@
   <project name="LineageOS/android_external_libavc" revision="cm-13.0" />
   <project name="LineageOS/android_external_libcap-ng" />
   <project name="LineageOS/android_external_libchrome" revision="cm-14.1" />
+  <project name="LineageOS/android_external_libdrm" revision="lineage-15.1" />
   <project name="LineageOS/android_external_libffi" />
   <project name="LineageOS/android_external_libgsm" />
   <project name="LineageOS/android_external_libhevc" revision="staging/cm-14.0" />
@@ -222,6 +223,7 @@
   <project name="LineageOS/android_external_pciutils" />
   <project name="LineageOS/android_external_pcre" revision="cm-12.0" />
   <project name="LineageOS/android_external_pdfium" revision="cm-13.0" />
+  <project name="LineageOS/android_external_perfetto" revision="lineage-16.0" />
   <project name="LineageOS/android_external_pigz" />
   <project name="LineageOS/android_external_powertop" />
   <project name="LineageOS/android_external_ppp" />
@@ -343,6 +345,7 @@
   <project name="LineageOS/android_hardware_lineage_livedisplay" revision="lineage-15.0" />
   <project name="LineageOS/android_hardware_nvidia_audio" revision="cm-12.0" />
   <project name="LineageOS/android_hardware_nvidia_tegra124" revision="cm-12.0" />
+  <project name="LineageOS/android_hardware_nxp_nfc" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_qcom_audio-caf" />
   <project name="LineageOS/android_hardware_qcom_audio" />
   <project name="LineageOS/android_hardware_qcom_bootctrl" revision="staging/cm-14.0" />
@@ -431,6 +434,7 @@
   <project name="LineageOS/android_packages_apps_Recorder" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Screencast" />
+  <project name="LineageOS/android_packages_apps_SecureElement" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_apps_Settings" />
   <project name="LineageOS/android_packages_apps_SmartCardService" />
   <project name="LineageOS/android_packages_apps_Snap" revision="cm-13.0" />
@@ -443,6 +447,7 @@
   <project name="LineageOS/android_packages_apps_ThemeChooser" />
   <project name="LineageOS/android_packages_apps_Torch" />
   <project name="LineageOS/android_packages_apps_Terminal" revision="cm-12.0" />
+  <project name="LineageOS/android_packages_apps_Traceur" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_apps_Trebuchet" />
   <project name="LineageOS/android_packages_apps_TvSettings" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_UnifiedEmail" />
