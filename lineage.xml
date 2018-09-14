@@ -539,6 +539,7 @@
   <project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
   <project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
   <project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+  <project name="LineageOS/android_vendor_qcom_opensource_audio" revision="lineage-16.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" />
   <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" revision="cm-14.1" />
   <project name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" />
