@@ -1,0 +1,7 @@
+<manifest>
+
+  <project name="LineageOS/android_device_sony_pioneer" path="device/sony/pioneer" />
+  <project name="LineageOS/android_device_sony_nile-common" path="device/sony/nile-common" />
+  <project name="LineageOS/android_kernel_sony_sdm660" path="kernel/sony/sdm660" />
+
+</manifest>

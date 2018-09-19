@@ -1,0 +1,8 @@
+<manifest>
+
+  <project path="patcher" name="berkeley-dev/android_patcher" />
+  <project path="device/huawei/berkeley" name="berkeley-dev/android_device_huawei_berkeley" />
+  <project path="device/huawei/kirin970-common" name="berkeley-dev/android_device_huawei_kirin970-common" />
+  <project path="vendor/huawei/kirin970-common" name="berkeley-dev/proprietary_vendor_huawei_kirin970-common" />
+
+</manifest>

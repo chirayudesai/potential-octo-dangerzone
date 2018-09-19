@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- RENDANG REPOS -->
+  <!-- Device Specific Repos -->
+  <project name="LineageOS/android_device_smartfren_rendang" />
+
+</manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- 8994, temp
+
+  <project name="fxpdev/device-sony-kitakami" path="device/sony/kitakami-common" remote="github" />
+  <project name="fxpdev/device-sony-karin" path="device/sony/karin" remote="github" />
+  <project name="fxpdev/device-sony-karin_windy" path="device/sony/karin_windy" remote="github" />
+  <project name="fxpdev/device-sony-ivy" path="device/sony/ivy" remote="github" />
+  <project name="fxpdev/device-sony-sumire" path="device/sony/sumire" remote="github" />
+  <project name="fxpdev/device-sony-suzuran" path="device/sony/suzuran" remote="github" />
+  <project name="fxpdev/device-sony-satsuki" path="device/sony/satsuki" remote="github" />
+
+  camera
+
+  <project name="fxpdev/android_hardware_qcom_camera" path="hardware/sony/camera" remote="github" revision="cm-13.0-sony" /> -->
+
+</manifest>

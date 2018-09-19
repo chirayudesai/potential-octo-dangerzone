@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_htc_m8" path="device/htc/m8" remote="github" />
+  <project name="LineageOS/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" />
+  <project name="LineageOS/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" />
+  <project name="LineageOS/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" />
+  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" />
+  <project name="LineageOS/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" />
+</manifest>

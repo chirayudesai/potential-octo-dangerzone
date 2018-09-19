@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_yu_tomato" path="device/yu/tomato" remote="github" />
+  <project name="LineageOS/android_device_yu_lettuce" path="device/yu/lettuce" remote="github" />
+  <project name="LineageOS/android_kernel_yu_msm8916" path="kernel/yu/msm8916" remote="github" />
+  <project name="LineageOS/android_device_cyanogen_msm8939-common" path="device/cyanogen/msm8939-common" />
+  <project name="LineageOS/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" />
+  <project name="LineageOS/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" />
+</manifest>

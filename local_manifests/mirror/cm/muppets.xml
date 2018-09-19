@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" />
+  <project name="TheMuppets/proprietary_vendor_yu" path="vendor/yu" />
+  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" />
+</manifest>

@@ -1,0 +1,5 @@
+<manifest>
+
+  <project name="platform/prebuilts/clang/linux-x86/host/3.6" clone-depth="1" />
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
+  <project name="LineageOS/android_device_samsung_p1" path="device/samsung/p1" />
+  <project name="LineageOS/android_device_samsung_p1c" path="device/samsung/p1c" revision="cm-10.2" />
+  <project name="LineageOS/android_device_samsung_p1-common" path="device/samsung/p1-common" />
+  <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" />
+  <project name="LineageOS/android_kernel_samsung_galaxytab-cdma" path="kernel/samsung/p1c" revision="cm-10.2" />
+  <project name="LineageOS/android_device_samsung_galaxysmtd" path="device/samsung/galaxysmtd" />
+  <project name="LineageOS/android_device_samsung_aries-common" path="device/samsung/aries-common" />
+  <project name="LineageOS/android_kernel_samsung_aries" path="kernel/samsung/aries" />
+</manifest>

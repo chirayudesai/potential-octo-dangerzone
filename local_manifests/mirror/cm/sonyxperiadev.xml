@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="NXP" fetch="https://github.com/NXPNFCProject/" />
+
+<project name="sonyxperiadev/device-sony-sepolicy" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-amami" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-aries" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-castor" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-castor_windy" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-common" groups="device" remote="github" revision="m-mr0" />
+<project name="sonyxperiadev/device-sony-common-headers" groups="device" remote="github" revision="aosp/LA.BF64.1.2.2_rb4.7" />
+<!-- <project name="sonyxperiadev/vendor-sony-kernel" groups="device" remote="github" revision="aosp/LA.BF64.1.2.2_rb4.7" /> -->
+<project name="sonyxperiadev/device-sony-eagle" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-flamingo" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-honami" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-kanuti" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-ivy" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-karin" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-karin_windy" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-kitakami" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-leo" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-rhine" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-satsuki" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-scorpion" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-scorpion_windy" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-seagull" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-shinano" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-sirius" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-sumire" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-suzuran" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-tianchi" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-togari" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-tulip" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/device-sony-yukon" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/camera" groups="device" remote="github" revision="aosp/LA.BF64.1.2.2_rb4.7" />
+<project name="sonyxperiadev/kernel" groups="device" remote="github" revision="aosp/LA.BF64.1.2.2_rb4.7" />
+<project name="sonyxperiadev/vendor-qcom-opensource-dataservices" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/thermanager" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/mkqcdtbootimg" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/macaddrsetup" groups="device" remote="github" revision="m-mr1" />
+<project name="sonyxperiadev/timekeep" groups="device" remote="github" revision="m-mr1" />
+
+<project name="sonyxperiadev/vendor-qcom-opensource-wlan-fw-api" groups="device" remote="github" revision="aosp/LA.UM.6.4.r1" />
+<project name="sonyxperiadev/vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="github" revision="aosp/LA.UM.6.4.r1" />
+<project name="sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="github" revision="aosp/LA.UM.6.4.r1" />
+
+<project name="sonyxperiadev/vendor-broadcom-bt-fm" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/vendor-broadcom-wlan" groups="device" remote="github" revision="master" />
+
+<project name="sonyxperiadev/vendor-nxp" groups="device" remote="github" revision="master" />
+<project name="NXPNFCProject/NXPNFCC_FW" groups="device" remote="github" revision="master" />
+
+<project name="sonyxperiadev/vendor-qcom-opensource-fm" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/vendor-qcom-opensource-location" groups="device" remote="github" revision="o-mr1" />
+<project name="sonyxperiadev/hardware-qcom-wlan" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/vendor-sony-oss-fingerprint" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/release-keys" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/packages_apps_ExtendedSettings" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/packages-apps-FMRadio" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/repo_update" groups="device" remote="github" revision="master"/>
+
+<!--sdm630-->
+<project name="sonyxperiadev/device-sony-nile" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/device-sony-discovery" groups="device" remote="github" revision="master" />
+<project name="sonyxperiadev/device-sony-pioneer" groups="device" remote="github" revision="master" />
+
+</manifest>

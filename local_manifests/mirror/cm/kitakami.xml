@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- <project name="fxpdev/android_kernel_sony_msm8994" /> -->
+  <!-- <project name="chirayudesai/android_device_sony_karin_windy" remote="private" />
+  <project name="chirayudesai/android_device_sony_kitakami-common" remote="private" />
+  <project name="chirayudesai/android_device_sony_karin" remote="private" />
+  <project name="chirayudesai/android_device_sony_ivy" remote="private" />
+
+    <project name="chirayudesai/android_kernel_sony_msm8994" path="kernel/sony/msm8994" remote="private" />
+    <project name="chirayudesai/proprietary_vendor_sony2" path="vendor/sony2" remote="private" /> -->
+
+</manifest>
