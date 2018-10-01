@@ -6,4 +6,5 @@
   <project name="TheMuppets/proprietary_vendor_yu" path="vendor/yu" />
   <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" />
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" />
 </manifest>
