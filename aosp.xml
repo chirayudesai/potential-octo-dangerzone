@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="refs/tags/android-9.0.0_r1"
+  <default revision="refs/tags/android-9.0.0_r21"
            remote="aosp"
            sync-j="4" />
   
@@ -49,6 +49,9 @@
   <project name="device/google/accessory/demokit" />
   <project name="device/google/atv" />
   <project name="device/google/contexthub" />
+  <project name="device/google/crosshatch" />
+  <project name="device/google/crosshatch-kernel" />
+  <project name="device/google/crosshatch-sepolicy" />
   <project name="device/google/cuttlefish" />
   <project name="device/google/cuttlefish_common" />
   <project name="device/google/cuttlefish_kernel" clone-depth="1" />
@@ -508,6 +511,13 @@
   <project name="platform/hardware/qcom/msm8x84" />
   <project name="platform/hardware/qcom/msm8x09" />
   <project name="platform/hardware/qcom/power" />
+  <project name="platform/hardware/qcom/sdm845/bt" />
+  <project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+  <project name="platform/hardware/qcom/sdm845/display" />
+  <project name="platform/hardware/qcom/sdm845/gps" />
+  <project name="platform/hardware/qcom/sdm845/media" />
+  <project name="platform/hardware/qcom/sdm845/thermal" />
+  <project name="platform/hardware/qcom/sdm845/vr" />
   <project name="platform/hardware/qcom/wlan" />
   <project name="platform/hardware/ril" />
   <project name="kernel/tests" />
