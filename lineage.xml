@@ -77,6 +77,7 @@
   <project name="LineageOS/android_external_chromium_org_third_party_boringssl_src" revision="cm-12.1" />
   <project name="LineageOS/android_external_chromium_org_third_party_openssl" />
   <project name="LineageOS/android_external_chromium_org_v8" revision="cm-12.1" />
+  <project name="LineageOS/android_external_chromium-libpac" />
   <project name="LineageOS/android_external_chromium-trace" />
   <project name="LineageOS/android_external_chromium-webview" revision="cm-13.0" />
   <project name="LineageOS/android_external_clang" />
@@ -324,6 +325,7 @@
   <project name="LineageOS/android_frameworks_wilhelm" />
   <project name="LineageOS/android_hardware_akm" />
   <project name="LineageOS/android_hardware_broadcom_libbt" />
+  <project name="LineageOS/android_hardware_broadcom_nfc" />
   <project name="LineageOS/android_hardware_broadcom_wlan" />
   <project name="LineageOS/android_hardware_cm" />
   <project name="LineageOS/android_hardware_cyanogen" revision="cm-12.1" />
@@ -351,6 +353,7 @@
   <project name="LineageOS/android_hardware_qcom_bootctrl" revision="staging/cm-14.0" />
   <project name="LineageOS/android_hardware_qcom_bt" />
   <project name="LineageOS/android_hardware_qcom_camera" />
+  <project name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" />
   <project name="LineageOS/android_hardware_qcom_display-caf" />
   <project name="LineageOS/android_hardware_qcom_display" />
   <project name="LineageOS/android_hardware_qcom_fm" />
@@ -362,12 +365,20 @@
   <project name="LineageOS/android_hardware_qcom_msm8x74" />
   <project name="LineageOS/android_hardware_qcom_neuralnetworks_hvxservice" />
   <project name="LineageOS/android_hardware_qcom_power" />
+  <project name="LineageOS/android_hardware_qcom_sdm845_bt" />
+  <project name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" />
+  <project name="LineageOS/android_hardware_qcom_sdm845_display" />
+  <project name="LineageOS/android_hardware_qcom_sdm845_gps" />
+  <project name="LineageOS/android_hardware_qcom_sdm845_media" />
+  <project name="LineageOS/android_hardware_qcom_sdm845_thermal" />
+  <project name="LineageOS/android_hardware_qcom_sdm845_vr" />
   <project name="LineageOS/android_hardware_qcom_sensors" />
   <project name="LineageOS/android_hardware_qcom_thermal" />
   <project name="LineageOS/android_hardware_qcom_vr" />
   <project name="LineageOS/android_hardware_qcom_wlan" />
   <project name="LineageOS/android_hardware_ril"  />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos5" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos3475" />
   <project name="LineageOS/android_hardware_ti_omap3" />
   <project name="LineageOS/android_hardware_ti_omap4" revision="cm-12.0" />
   <project name="LineageOS/android_hardware_ti_omap4xxx" />
@@ -436,6 +447,7 @@
   <project name="LineageOS/android_packages_apps_Screencast" />
   <project name="LineageOS/android_packages_apps_SecureElement" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_apps_Settings" />
+  <project name="LineageOS/android_packages_apps_SettingsIntelligence" />
   <project name="LineageOS/android_packages_apps_SmartCardService" />
   <project name="LineageOS/android_packages_apps_Snap" revision="cm-13.0" />
   <project name="LineageOS/android_packages_apps_SoundRecorder" />
@@ -527,6 +539,7 @@
   <project name="LineageOS/android_system_qcom" />
   <project name="LineageOS/android_system_security" />
   <project name="LineageOS/android_system_sepolicy" revison="cm-14.1" />
+  <project name="LineageOS/android_system_timezone" />
   <project name="LineageOS/android_system_tools_aidl" revision="cm-14.1" />
   <project name="LineageOS/android_system_tools_dtbtool" revision="lineage-15.0" />
   <project name="LineageOS/android_system_tools_hidl" revision="lineage-15.0" />
@@ -538,6 +551,8 @@
   <project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
   <project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
   <project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
+  <project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
+  <project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
   <project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
   <project name="LineageOS/android_vendor_qcom_opensource_audio" revision="lineage-16.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="cm-14.1" />
@@ -547,6 +562,7 @@
   <project name="LineageOS/android_vendor_qcom_opensource_dpm" revision="cm-13.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" revision="lineage-15.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_rcs-service" revision="lineage-15.0" />
+  <project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" />
   <project name="LineageOS/android_vendor_qcom_opensource_time-services" revision="cm-13.0" />
   <project name="LineageOS/cm_platform_sdk" revision="cm-12.1" />
   <project name="LineageOS/ion" />
