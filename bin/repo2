@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Wrapper for a git wrapper, repo
+# Syncs local mirror of source before syncing the tree
+# inited from said mirror.
+
+os=$(pwd | cut -d \/ -f 5)
+
+aosp_project() {
+	for p in $@; do
+		if [[ -d "$p" ]] ; then
+			_p=`GIT_DIR=$(realpath $p/.git) git config --get remote.aosp.projectname`
+			if [[ -z "$_p" ]] ; then
+				_p=`GIT_DIR=$(realpath $p/.git) git config --get remote.sony.projectname`
+			fi
+			echo "$_p"
+		else
+			echo "$p"
+		fi
+	done
+}
+
+cm_project() {
+	for p in $@; do
+		if [[ -d "$p" ]] ; then
+			_p=`GIT_DIR=$(realpath $p/.git) git config --get remote.github.projectname`
+                        if [[ -z "$_p" ]] ; then
+	                        _p=`GIT_DIR=$(realpath $p/.git) git config --get remote.cyngn-mirror.projectname`
+			fi
+			echo "$_p"
+		else
+			echo "$p"
+		fi
+	done
+}
+
+if [[ "$1" == "sync" ]] ; then
+	if [[ "${os}" == "cm" || "${os}" == "cyngn" || "${os}" == "lineage" ]] ; then
+		echo "Syncing LineageOS mirror"
+		args=$(cm_project $@)
+		pushd ${HOME}/android/mirror/cm
+		repo $args
+		popd
+		echo "Syncing LineageOS"
+	elif [[ "${os}" == "aosp" || "${os}" == "calyx" ]] ; then
+		echo "Syncing AOSP mirror"
+		args=$(aosp_project $@)
+		pushd ${HOME}/android/mirror/aosp
+		repo $args
+		popd
+		echo "Syncing AOSP"
+	fi
+fi
+
+repo $@
