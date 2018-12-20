@@ -8,10 +8,10 @@ The local_manifests directory contains local manifests I have been using, since 
 URL=https://github.com/chirayudesai/potential-octo-dangerzone
 ### Mirrors
 #### mirror/aosp
-`repo init -u $URL -m aosp.xml`
+`repo init -u $URL -m aosp.xml --mirror`
 * Also contains all the local manifests under local_manifests/mirror/aosp
 #### mirror/cm
-`repo init -u $URL -m lineage.xml`
+`repo init -u $URL -m lineage.xml --mirror`
 * Also contains all the local manifests under local_manifests/mirror/cm
 * Another thing I do is symlink {device,external,kernel,platform} from the AOSP mirror here, so that it gets picked up when initing Lineage and setting this as `--reference`
 ### Working directories
