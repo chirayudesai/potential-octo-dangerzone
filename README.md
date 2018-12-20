@@ -7,15 +7,22 @@ The local_manifests directory contains local manifests I have been using, since 
 ## Current Setup:
 URL=https://github.com/chirayudesai/potential-octo-dangerzone
 ### Mirrors
-#### mirror/aosp:
+#### mirror/aosp
 `repo init -u $URL -m aosp.xml`
-#### mirror/cm:
+* Also contains all the local manifests under local_manifests/mirror/aosp
+#### mirror/cm
 `repo init -u $URL -m lineage.xml`
+* Also contains all the local manifests under local_manifests/mirror/cm
+* Another thing I do is symlink {device,external,kernel,platform} from the AOSP mirror here, so that it gets picked up when initing Lineage and setting this as `--reference`
 ### Working directories
 ### lineage/16.0
-`repo init -u $URL -b lineage/lineage-16.0 --reference=path/to/mirror/cm`
+`repo init -u path/to/mirror/cm/chirayudesai/potential-octo-dangerzone.git -b lineage/lineage-16.0 --reference=path/to/mirror/cm`
+* I use a custom manifest here with one change, fetch AOSP from '..' instead of the actual URL. This means that this repo does not actually touch the network at all.
+* 194M    .repo
 ### aosp/9.0
 `repo init -u path/to/mirror/aosp/platform/manifest.git --reference=path/to/mirror/aosp`
+* Nothing too fancy here, just a sync from mirror + reference to mirror.
+* 183M    .repo
 
 ### Scripts
 #### bin/repo2
