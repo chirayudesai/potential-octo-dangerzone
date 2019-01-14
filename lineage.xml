@@ -346,6 +346,7 @@
   <project name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-15.0" />
   <project name="LineageOS/android_hardware_lineage_lineagehw" />
   <project name="LineageOS/android_hardware_lineage_livedisplay" revision="lineage-15.0" />
+  <project name="LineageOS/android_hardware_lineage_telephony" />
   <project name="LineageOS/android_hardware_nvidia_audio" revision="cm-12.0" />
   <project name="LineageOS/android_hardware_nvidia_tegra124" revision="cm-12.0" />
   <project name="LineageOS/android_hardware_nxp_nfc" revision="lineage-16.0" />
@@ -549,6 +550,7 @@
   <project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" />
   <project name="LineageOS/android_vendor_lineage" revision="lineage-15.0" />
+  <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
   <project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
   <project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
