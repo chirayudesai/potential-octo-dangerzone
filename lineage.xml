@@ -393,6 +393,7 @@
   <project name="LineageOS/android_packages_apps_Apollo" />
   <project name="LineageOS/android_packages_apps_AppDrawer" />
   <project name="LineageOS/android_packages_apps_AudioFX" revision="cm-12.0" />
+  <project name="LineageOS/android_packages_apps_Backgrounds" />
   <project name="LineageOS/android_packages_apps_BasicSmsReceiver" />
   <project name="LineageOS/android_packages_apps_Bluetooth" />
   <project name="LineageOS/android_packages_apps_BluetoothExt" />
@@ -520,6 +521,7 @@
   <project name="LineageOS/android_prebuilt" />
   <project name="LineageOS/android_prebuilts_build-tools" />
   <project name="LineageOS/android_prebuilts_cmsdk" revision="cm-12.1" />
+  <project name="LineageOS/android_prebuilts_constraint-layout" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" revision="cm-12.1" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" revision="cm-14.1" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" revision="cm-12.1" />
@@ -533,8 +535,10 @@
   <project name="LineageOS/android_system_extras" />
   <project name="LineageOS/android_system_extras_su" revision="cm-12.0" />
   <project name="LineageOS/android_system_hardware_interfaces" revision="lineage-15.0" />
+  <project name="LineageOS/android_system_hwservicemanager" />
   <project name="LineageOS/android_system_keymaster" revision="cm-12.0" />
   <project name="LineageOS/android_system_libhidl" revision="lineage-15.0" />
+  <project name="LineageOS/android_system_libhwbinder" />
   <project name="LineageOS/android_system_media" />
   <project name="LineageOS/android_system_netd" />
   <project name="LineageOS/android_system_nfc" revision="lineage-15.0" />
