@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="refs/tags/android-9.0.0_r21"
+  <default revision="refs/tags/android-9.0.0_r38"
            remote="aosp"
            sync-j="4" />
   
@@ -48,6 +48,9 @@
   <project name="device/google/accessory/arduino" />
   <project name="device/google/accessory/demokit" />
   <project name="device/google/atv" />
+  <project name="device/google/bonito" />
+  <project name="device/google/bonito-kernel" clone-depth="1" />
+  <project name="device/google/bonito-sepolicy" />
   <project name="device/google/contexthub" />
   <project name="device/google/crosshatch" />
   <project name="device/google/crosshatch-kernel" />
@@ -470,6 +473,7 @@
   <project name="platform/hardware/google/apf" />
   <project name="platform/hardware/google/av" />
   <project name="platform/hardware/google/easel" />
+  <project name="platform/hardware/google/pixel" />
   <project name="platform/hardware/google/interfaces" />
   <project name="platform/hardware/intel/audio_media" />
   <project name="platform/hardware/intel/bootstub" />
@@ -511,6 +515,12 @@
   <project name="platform/hardware/qcom/msm8x84" />
   <project name="platform/hardware/qcom/msm8x09" />
   <project name="platform/hardware/qcom/power" />
+  <project name="platform/hardware/qcom/sdm710/data/ipacfg-mgr" />
+  <project name="platform/hardware/qcom/sdm710/display" />
+  <project name="platform/hardware/qcom/sdm710/gps" />
+  <project name="platform/hardware/qcom/sdm710/media" />
+  <project name="platform/hardware/qcom/sdm710/thermal" />
+  <project name="platform/hardware/qcom/sdm710/vr" />
   <project name="platform/hardware/qcom/sdm845/bt" />
   <project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
   <project name="platform/hardware/qcom/sdm845/display" />
