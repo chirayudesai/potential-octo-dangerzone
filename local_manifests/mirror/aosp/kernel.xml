@@ -1,5 +1,9 @@
 <manifest>
 
 	<project name="kernel/msm" revison="master" />
+	<project name="kernel/msm-extra" revison="master" />
+	<project name="kernel/msm-modules/qcacld" revison="master" />
+	<project name="kernel/msm-modules/qca-wfi-host-cmn" revison="master" />
+	<project name="kernel/msm-modules/wlan-fw-api" revison="master" />
 
 </manifest>
