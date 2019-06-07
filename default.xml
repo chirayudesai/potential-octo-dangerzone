@@ -8,10 +8,13 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="gitlab"
+           fetch="ssh://git@gitlab.com" />
+
   <remote  name="aosp"
            fetch=".."
            review="android-review.googlesource.com"
-           revision="refs/tags/android-9.0.0_r35" />
+           revision="refs/tags/android-9.0.0_r37" />
 
   <default revision="refs/heads/lineage-16.0"
            remote="github"
@@ -219,7 +222,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" remote="aosp" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
+  <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" />
   <project path="external/libtextclassifier" name="LineageOS/android_external_libtextclassifier" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />
@@ -432,20 +435,21 @@
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
+  <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="aosp" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="aosp" />
-  <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
+  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="bonito,crosshatch" remote="aosp" revision="2656ca3347d74d0bde7552fb57a2fd8af89ebb6a" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" remote="aosp" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel,pdk" remote="aosp" />
+  <project path="hardware/intel/bootstub" name="LineageOS/android_hardware_intel_bootstub" groups="intel,pdk" remote="github" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" remote="aosp" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel,pdk" remote="aosp" />
+  <project path="hardware/intel/common/libmix" name="LineageOS/android_hardware_intel_common_libmix" groups="intel,pdk" remote="github" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel,pdk" remote="aosp" />
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel,pdk" remote="aosp" />
+  <project path="hardware/intel/common/utils" name="LineageOS/android_hardware_intel_common_utils" groups="intel,pdk" remote="github" />
   <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel,pdk" remote="aosp" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" remote="aosp" />
+  <project path="hardware/intel/img/hwcomposer" name="LineageOS/android_hardware_intel_img_hwcomposer" groups="intel,pdk" remote="github" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" remote="aosp" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
@@ -465,6 +469,15 @@
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" remote="aosp" />
+  <project path="hardware/qcom/sdm710/data/ipacfg-mgr" name="platform/hardware/qcom/sdm710/data/ipacfg-mgr" groups="vendor,qcom_sdm710" remote="aosp" revision="refs/tags/android-9.0.0_r39" />
+  <project path="hardware/qcom/sdm710/display" name="LineageOS/android_hardware_qcom_sdm710_display" groups="qcom_sdm710" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm710/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm710/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm710/gps" name="platform/hardware/qcom/sdm710/gps" groups="qcom_sdm710" remote="aosp" revision="refs/tags/android-9.0.0_r39" />
+  <project path="hardware/qcom/sdm710/media" name="platform/hardware/qcom/sdm710/media" groups="qcom_sdm710" remote="aosp" revision="refs/tags/android-9.0.0_r39" />
+  <project path="hardware/qcom/sdm710/thermal" name="platform/hardware/qcom/sdm710/thermal" groups="qcom_sdm710" remote="aosp" revision="refs/tags/android-9.0.0_r39" />
+  <project path="hardware/qcom/sdm710/vr" name="platform/hardware/qcom/sdm710/vr" groups="qcom_sdm710" remote="aosp" revision="refs/tags/android-9.0.0_r39" />
   <project path="hardware/qcom/sdm845/bt" name="LineageOS/android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
@@ -532,7 +545,6 @@
   <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="LineageOS/android_packages_apps_TV" />
   <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" />
