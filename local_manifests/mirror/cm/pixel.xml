@@ -1,9 +1,13 @@
 <manifest>
 
+  <project name="LineageOS/android_device_google_bonito" path="device/google/bonito" />
+  <project name="LineageOS/android_device_google_crosshatch" path="device/google/crosshatch" />
   <project name="LineageOS/android_device_google_marlin" path="device/google/marlin" />
   <project name="LineageOS/android_device_google_muskie" path="device/google/muskie" />
   <project name="LineageOS/android_device_google_taimen" path="device/google/taimen" />
   <project name="LineageOS/android_device_google_wahoo" path="device/google/wahoo" />
+  <project name="LineageOS/android_kernel_google_bonito" path="kernel/google/bonito" />
+  <project name="LineageOS/android_kernel_google_crosshatch" path="kernel/google/crosshatch" />
   <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" />
   <project name="LineageOS/android_kernel_google_wahoo" path="kernel/google/wahoo" />
 </manifest>
