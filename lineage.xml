@@ -330,6 +330,7 @@
   <project name="LineageOS/android_hardware_broadcom_wlan" />
   <project name="LineageOS/android_hardware_cm" />
   <project name="LineageOS/android_hardware_cyanogen" revision="cm-12.1" />
+  <project name="LineageOS/android_hardware_intel_bootstub" />
   <project name="LineageOS/android_hardware_intel_common_libmix" revision="cm-12.1" />
   <project name="LineageOS/android_hardware_intel_common_libva" revision="cm-13.0" />
   <project name="LineageOS/android_hardware_intel_common_libwsbm" />
@@ -374,6 +375,7 @@
   <project name="LineageOS/android_hardware_qcom_sdm845_media" />
   <project name="LineageOS/android_hardware_qcom_sdm845_thermal" />
   <project name="LineageOS/android_hardware_qcom_sdm845_vr" />
+  <project name="LineageOS/android_hardware_qcom_sdm710_display" />
   <project name="LineageOS/android_hardware_qcom_sensors" />
   <project name="LineageOS/android_hardware_qcom_thermal" />
   <project name="LineageOS/android_hardware_qcom_vr" />
