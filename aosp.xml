@@ -267,7 +267,7 @@
   <project name="platform/external/libgsm" />
   <project name="platform/external/libhevc" />
   <project name="platform/external/libjpeg-turbo" />
-   <project name="platform/external/libkmsxx" />
+  <project name="platform/external/libkmsxx" />
   <project name="platform/external/libldac" />
   <project name="platform/external/liblzf" revision="android-8.1.0_r1" />
   <project name="platform/external/libmicrohttpd" revision="android-9.0.0_r38" />
@@ -282,12 +282,11 @@
   <project name="platform/external/libpcap" />
   <project name="platform/external/libphonenumber" />
   <project name="platform/external/libpng" />
-   <project name="platform/external/libprotobuf-mutator" />
+  <project name="platform/external/libprotobuf-mutator" />
   <project name="platform/external/libunwind" />
   <project name="platform/external/libunwind_llvm" />
   <project name="platform/external/libusb" />
   <project name="platform/external/libusb-compat" />
-  <project name="platform/external/libutf" revision="android-8.0.0_r1" />
   <project name="platform/external/libvncserver" revision="android-9.0.0_r38" />
   <project name="platform/external/libvorbis" revision="android-8.1.0_r1" />
   <project name="platform/external/libutf" />
