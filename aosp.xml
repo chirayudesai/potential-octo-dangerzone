@@ -166,6 +166,7 @@
   <project name="platform/external/eigen" />
   <project name="platform/external/elfutils" />
   <project name="platform/external/emma" />
+  <project name="platform/external/epid-sdk" />
   <project name="platform/external/error_prone" />
   <project name="platform/external/esd" revision="android-9.0.0_r38" />
   <project name="platform/external/expat" />
