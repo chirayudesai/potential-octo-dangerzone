@@ -15,6 +15,9 @@
   <remove-project name="device/lge/hammerhead-kernel" />
   <remove-project name="device/lge/mako-kernel" />
   <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- darwin toolchains -->
   <!-- <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />-->
