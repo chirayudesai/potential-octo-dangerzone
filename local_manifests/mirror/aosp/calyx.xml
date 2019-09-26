@@ -1,0 +1,61 @@
+<manifest>
+
+  <remote  name="gitlab-priv"
+           fetch="ssh://git@gitlab.com" />
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <project name="calyxos/device_common" remote="gitlab" />
+  <project name="calyxos/device_google_bonito" remote="gitlab" />
+  <project name="calyxos/device_google_crosshatch" remote="gitlab" />
+  <project name="calyxos/device_google_marlin" remote="gitlab" />
+  <project name="calyxos/device_google_muskie" remote="gitlab" />
+  <project name="calyxos/device_google_taimen" remote="gitlab" />
+  <project name="calyxos/device_google_wahoo" remote="gitlab" />
+  <project name="calyxos/device_qcom_sepolicy" remote="gitlab" />
+  <project name="calyxos/device_xiaomi_jasmine_sprout" remote="gitlab" />
+  <project name="calyxos/device_xiaomi_sdm660-common" remote="gitlab" />
+  <project name="calyxos/kernel_google_bluecross" remote="gitlab" />
+  <project name="calyxos/kernel_google_bonito" remote="gitlab" />
+  <project name="calyxos/kernel_google_marlin" remote="gitlab" />
+  <project name="calyxos/kernel_google_wahoo" remote="gitlab" />
+  <project name="calyxos/kernel_xiaomi_jasmine_sprout" remote="gitlab" />
+  <project name="calyxos/platform_bionic" remote="gitlab" />
+  <project name="calyxos/platform_build" remote="gitlab" />
+  <project name="calyxos/platform_build_soong" remote="gitlab" />
+  <project name="calyxos/platform_external_ant-wireless_ant_native" remote="gitlab" />
+  <project name="calyxos/platform_external_ant-wireless_antradio-library" remote="gitlab" />
+  <project name="calyxos/platform_external_ant-wireless_ant_service" remote="gitlab" />
+  <project name="calyxos/platform_manifest" remote="gitlab" />
+  <project name="calyxos/platform_frameworks_av" remote="gitlab" />
+  <project name="calyxos/platform_frameworks_base" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom_audio" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom_bootctrl" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom_data_ipacfg-mgr" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom_display" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom_gps" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom_media" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom_msm8998" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_F-Droid" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Launcher3" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Settings" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_SetupWizard" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Updater" remote="gitlab" />
+  <project name="calyxos/platform_packages_resources_devicesettings" remote="gitlab" />
+  <project name="calyxos/platform_prebuilts_calyx" remote="gitlab" />
+  <project name="calyxos/platform_prebuilts_misc" remote="gitlab" />
+  <project name="calyxos/vendor_android-prepare-vendor" remote="gitlab" />
+  <project name="calyxos/vendor_calyx" remote="gitlab" />
+  <project name="calyxos/vendor_calyx-tmp" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_audio" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_cryptfs_hw" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_dataservices" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_interfaces" remote="gitlab" />
+  <project name="calyxos/vendor_xiaomi_jasmine_sprout" remote="gitlab" />
+  <project name="calyxos/vendor_xiaomi_sdm660-common" remote="gitlab" />
+  <project name="calyxos/vendor_xiaomi_wayne" remote="gitlab" />
+  <project name="calyxos/vendor_xiaomi_jasmine-tmp" remote="gitlab" />
+  <project name="calyxos/calyxos.wiki" remote="gitlab" />
+
+</manifest>
