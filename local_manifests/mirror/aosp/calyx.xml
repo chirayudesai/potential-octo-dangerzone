@@ -36,9 +36,11 @@
   <project name="calyxos/platform_hardware_qcom_gps" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_media" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_msm8998" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_DeskClock" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-Droid" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Launcher3" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Messaging" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Settings" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Updater" remote="gitlab" />
