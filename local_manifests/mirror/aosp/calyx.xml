@@ -18,6 +18,7 @@
   <project name="calyxos/kernel_google_bluecross" remote="gitlab" />
   <project name="calyxos/kernel_google_bonito" remote="gitlab" />
   <project name="calyxos/kernel_google_marlin" remote="gitlab" />
+  <project name="calyxos/kernel_google_msm-4.9" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" remote="gitlab" />
   <project name="calyxos/kernel_xiaomi_jasmine_sprout" remote="gitlab" />
   <project name="calyxos/platform_bionic" remote="gitlab" />
