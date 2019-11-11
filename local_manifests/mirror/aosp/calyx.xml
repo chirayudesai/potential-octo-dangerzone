@@ -33,6 +33,9 @@
   <project name="calyxos/platform_frameworks_base" remote="gitlab" />
   <project name="calyxos/platform_frameworks_native" remote="gitlab" />
   <project name="calyxos/platform_frameworks_opt_telephony" remote="gitlab" />
+  <project name="calyxos/platform_hardware_calyx_interfaces" remote="gitlab" />
+  <project name="calyxos/platform_hardware_interfaces" remote="gitlab" />
+  <project name="calyxos/platform_hardware_libhardware" remote="gitlab" />
   <project name="calyxos/platform_hardware_libhardware_legacy" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_audio" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_bootctrl" remote="gitlab" />
@@ -46,6 +49,7 @@
   <project name="calyxos/platform_hardware_qcom_wlan" remote="gitlab" />
   <project name="calyxos/platform_manifest" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_DeskClock" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Eleven" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-Droid" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Launcher3" remote="gitlab" />
@@ -55,6 +59,8 @@
   <project name="calyxos/platform_packages_apps_Updater" remote="gitlab" />
   <project name="calyxos/platform_packages_services_Telephony" remote="gitlab" />
   <project name="calyxos/platform_packages_resources_devicesettings" remote="gitlab" />
+  <project name="calyxos/platform_system_core" remote="gitlab" />
+  <project name="calyxos/platform_system_vold" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_calyx" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_misc" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_tools-lineage" remote="gitlab" />
@@ -73,5 +79,13 @@
   <project name="calyxos/vendor_xiaomi_wayne" remote="gitlab" />
   <project name="calyxos/vendor_xiaomi_jasmine-tmp" remote="gitlab" />
   <project name="calyxos/calyxos.wiki" remote="gitlab" />
+
+  <project name="calyxos/bitmask_android" remote="gitlab" />
+  <project name="calyxos/branding" remote="gitlab" />
+  <project name="calyxos/calyx-fdroid-repo" remote="gitlab" />
+  <project name="calyxos/calyxos" remote="gitlab" />
+  <project name="calyxos/calyxos-fdroid-repo" remote="gitlab" />
+  <project name="calyxos/infra" remote="gitlab" />
+  <project name="calyxos/Seedvault" remote="gitlab" />
 
 </manifest>
