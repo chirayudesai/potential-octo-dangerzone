@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="refs/tags/android-10.0.0_r2"
+  <default revision="refs/tags/android-10.0.0_r7"
            remote="aosp"
            sync-j="4" />
   
@@ -56,6 +56,9 @@
   <project name="device/google/bonito-kernel" clone-depth="1" />
   <project name="device/google/bonito-sepolicy" />
   <project name="device/google/contexthub" />
+  <project name="device/google/coral" />
+  <project name="device/google/coral-kernel" clone-depth="1" />
+  <project name="device/google/coral-sepolicy" />
   <project name="device/google/crosshatch" />
   <project name="device/google/crosshatch-kernel" />
   <project name="device/google/crosshatch-sepolicy" />
@@ -548,8 +551,9 @@
   <project name="platform/hardware/google/apf" />
   <project name="platform/hardware/google/av" />
   <project name="platform/hardware/google/easel" />
-  <project name="platform/hardware/google/pixel" />
   <project name="platform/hardware/google/interfaces" />
+  <project name="platform/hardware/google/pixel" />
+  <project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
   <project name="platform/hardware/intel/audio_media" revision="android-9.0.0_r38" />
   <project name="platform/hardware/intel/bootstub" revision="android-9.0.0_r38" />
   <project name="platform/hardware/intel/common/bd_prov" revision="android-9.0.0_r38" />
@@ -603,8 +607,16 @@
   <project name="platform/hardware/qcom/sdm845/media" />
   <project name="platform/hardware/qcom/sdm845/thermal" />
   <project name="platform/hardware/qcom/sdm845/vr" />
+  <project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+  <project name="platform/hardware/qcom/sm8150/display" />
+  <project name="platform/hardware/qcom/sm8150/gps" />
+  <project name="platform/hardware/qcom/sm8150/media" />
+  <project name="platform/hardware/qcom/sm8150/thermal" />
+  <project name="platform/hardware/qcom/sm8150/vr" />
   <project name="platform/hardware/qcom/wlan" />
   <project name="platform/hardware/ril" />
+  <project name="platform/hardware/st/nfc" />
+  <project name="platform/hardware/st/secure_element" />
   <project name="platform/hardware/ti/am57x" />
    <project name="kernel/build" />
   <project name="kernel/tests" />
