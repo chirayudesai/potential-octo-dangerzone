@@ -18,6 +18,7 @@
   <project name="calyxos/device_xiaomi_sdm660-common" remote="gitlab" />
   <project name="calyxos/kernel_google_bluecross" remote="gitlab" />
   <project name="calyxos/kernel_google_bonito" remote="gitlab" />
+  <project name="calyxos/kernel_google_coral" remote="gitlab" />
   <project name="calyxos/kernel_google_marlin" remote="gitlab" />
   <project name="calyxos/kernel_google_msm-4.9" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" remote="gitlab" />
