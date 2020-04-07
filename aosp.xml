@@ -856,6 +856,7 @@
   <project name="platform/test/sts" />
   <project name="platform/tools/acloud" />
   <project name="platform/tools/adt/idea" />
+  <project name="platform/tools/apifinder" />
   <project name="platform/tools/apksig" />
   <project name="platform/tools/apkzlib" />
   <project name="platform/tools/appbundle" revision="android-9.0.0_r38" />
