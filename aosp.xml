@@ -630,6 +630,7 @@
   <project name="platform/packages/apps/Calendar" />
   <project name="platform/packages/apps/Camera2" />
   <project name="platform/packages/apps/Car/Cluster" />
+  <project name="platform/packages/apps/Car/CompanionDeviceSupport" />
   <project name="platform/packages/apps/Car/Dialer" />
   <project name="platform/packages/apps/Car/Hvac" />
   <project name="platform/packages/apps/Car/LatinIME" />
