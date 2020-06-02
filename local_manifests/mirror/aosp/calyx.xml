@@ -65,6 +65,7 @@
   <project name="calyxos/platform_packages_resources_devicesettings" remote="gitlab" />
   <project name="calyxos/platform_system_core" remote="gitlab" />
   <project name="calyxos/platform_system_vold" remote="gitlab" />
+  <project name="calyxos/platform_prebuilts_build-tools" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_calyx" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_misc" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_tools-lineage" remote="gitlab" />
