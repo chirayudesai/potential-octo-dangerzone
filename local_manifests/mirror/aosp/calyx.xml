@@ -53,6 +53,7 @@
   <project name="calyxos/platform_manifest" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Contacts" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_DeskClock" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Dialer" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Eleven" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-Droid" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" remote="gitlab" />
