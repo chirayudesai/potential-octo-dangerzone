@@ -51,6 +51,7 @@
   <project name="calyxos/platform_hardware_qcom_msm8998" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_wlan" remote="gitlab" />
   <project name="calyxos/platform_manifest" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Contacts" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_DeskClock" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Eleven" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-Droid" remote="gitlab" />
