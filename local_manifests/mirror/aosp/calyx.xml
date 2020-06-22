@@ -36,6 +36,7 @@
   <project name="calyxos/platform_frameworks_base" remote="gitlab" />
   <project name="calyxos/platform_frameworks_native" remote="gitlab" />
   <project name="calyxos/platform_frameworks_opt_telephony" remote="gitlab" />
+  <project name="calyxos/platform_frameworks_opt_timezonepicker" remote="gitlab" />
   <project name="calyxos/platform_hardware_calyx_interfaces" remote="gitlab" />
   <project name="calyxos/platform_hardware_interfaces" remote="gitlab" />
   <project name="calyxos/platform_hardware_libhardware" remote="gitlab" />
@@ -52,10 +53,14 @@
   <project name="calyxos/platform_hardware_qcom_thermal" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_wlan" remote="gitlab" />
   <project name="calyxos/platform_manifest" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Bluetooth" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Calendar" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Camera2" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Contacts" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_DeskClock" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Dialer" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Eleven" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Etar" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-Droid" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Launcher3" remote="gitlab" />
