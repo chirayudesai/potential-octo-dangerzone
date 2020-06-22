@@ -25,6 +25,7 @@
   <project name="LineageOS/android_bootable_recovery" />
   <project name="LineageOS/android_bootable_recovery-cm" />
   <project name="LineageOS/android_build" />
+  <project name="LineageOS/android_build_blueprint" />
   <project name="LineageOS/android_build_kati" revision="staging/cm-14.0" />
   <project name="LineageOS/android_build_soong" revision="lineage-15.0" />
   <project name="LineageOS/android_cts" revision="cm-12.0" />
@@ -40,6 +41,7 @@
   <project name="LineageOS/android_device_google_accessory_arduino" />
   <project name="LineageOS/android_device_google_accessory_demokit" />
   <project name="LineageOS/android_device_google_atv" revision="cm-12.1" />
+  <project name="LineageOS/android_device_lineage_atv" />
   <project name="LineageOS/android_device_lineage_sepolicy" revision="lineage-15.0" />
   <project name="LineageOS/android_device_qcom_sepolicy" revision="cm-12.0" />
   <project name="LineageOS/android_device_qcom_sepolicy-legacy" />
@@ -82,6 +84,7 @@
   <project name="LineageOS/android_external_chromium-trace" />
   <project name="LineageOS/android_external_chromium-webview" revision="cm-13.0" />
   <project name="LineageOS/android_external_clang" />
+  <project name="LineageOS/android_external_cldr" />
   <project name="LineageOS/android_external_cmsdk-api-coverage" revision="cm-13.0" />
   <project name="LineageOS/android_external_compiler-rt" />
   <project name="LineageOS/android_external_connectivity" />
@@ -158,6 +161,7 @@
   <project name="LineageOS/android_external_libavc" revision="cm-13.0" />
   <project name="LineageOS/android_external_libcap-ng" />
   <project name="LineageOS/android_external_libchrome" revision="cm-14.1" />
+  <project name="LineageOS/android_external_libcxx" />
   <project name="LineageOS/android_external_libdrm" revision="lineage-15.1" />
   <project name="LineageOS/android_external_libffi" />
   <project name="LineageOS/android_external_libgsm" />
@@ -342,6 +346,7 @@
   <project name="LineageOS/android_hardware_intel_img_psb_video" />
   <project name="LineageOS/android_hardware_interfaces" revision="lineage-15.0" />
   <project name="LineageOS/android_hardware_invensense" />
+  <project name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" />
   <project name="LineageOS/android_hardware_libhardware" />
   <project name="LineageOS/android_hardware_libhardware_legacy" />
   <project name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-15.0" />
@@ -355,6 +360,7 @@
   <project name="LineageOS/android_hardware_qcom_audio" />
   <project name="LineageOS/android_hardware_qcom_bootctrl" revision="staging/cm-14.0" />
   <project name="LineageOS/android_hardware_qcom_bt" />
+  <project name="LineageOS/android_hardware_qcom-caf_common" />
   <project name="LineageOS/android_hardware_qcom_camera" />
   <project name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" />
   <project name="LineageOS/android_hardware_qcom_display-caf" />
@@ -422,8 +428,10 @@
   <project name="LineageOS/android_packages_apps_Eleven" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_Email" />
   <project name="LineageOS/android_packages_apps_EmergencyInfo" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_apps_Etar" />
   <project name="LineageOS/android_packages_apps_ExactCalculator" revision="cm-13.0" />
   <project name="LineageOS/android_packages_apps_Exchange" />
+  <project name="LineageOS/android_packages_apps_FlipFlap" />
   <project name="LineageOS/android_packages_apps_FMRadio" revision="cm-13.0" />
   <project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS/android_packages_apps_Gello" revision="cm-13.0" />
@@ -461,6 +469,7 @@
   <project name="LineageOS/android_packages_apps_SetupWizard" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_Tag" />
   <project name="LineageOS/android_packages_apps_ThemeChooser" />
+  <project name="LineageOS/android_packages_apps_ThemePicker" />
   <project name="LineageOS/android_packages_apps_Torch" />
   <project name="LineageOS/android_packages_apps_Terminal" revision="cm-12.0" />
   <project name="LineageOS/android_packages_apps_Traceur" revision="lineage-16.0" />
@@ -472,12 +481,14 @@
   <project name="LineageOS/android_packages_apps_VoiceDialer" />
   <project name="LineageOS/android_packages_apps_VoicePlus" />
   <project name="LineageOS/android_packages_apps_WallpaperPicker" revision="cm-13.0" />
+  <project name="LineageOS/android_packages_apps_WallpaperPicker2" />
   <project name="LineageOS/android_packages_apps_WundergroundWeatherProvider" revision="cm-13.0" />
   <project name="LineageOS/android_packages_apps_YahooWeatherProvider" revision="cm-13.0" />
   <project name="LineageOS/android_packages_experimental" />
   <project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <project name="LineageOS/android_packages_inputmethods_OpenWnn" />
   <project name="LineageOS/android_packages_inputmethods_PinyinIME" />
+  <project name="LineageOS/android_packages_modules_CaptivePortalLogin" />
   <project name="LineageOS/android_packages_overlays_Lineage" />
   <project name="LineageOS/android_packages_providers_ApplicationsProvider" />
   <project name="LineageOS/android_packages_providers_BlockedNumberProvider" revision="cm-14.1" />
@@ -530,7 +541,10 @@
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" revision="cm-14.1" />
   <project name="LineageOS/android_prebuilts_misc" />
   <project name="LineageOS/android_prebuilts_lineage-sdk" revision="lineage-15.0" />
+  <project name="LineageOS/android_prebuilts_r8" />
+  <project name="LineageOS/android_prebuilts_tools-lineage" />
   <project name="LineageOS/android_sdk" />
+  <project name="LineageOS/android_system_bpf" />
   <project name="LineageOS/android_system_bt" revision="cm-13.0" />
   <project name="LineageOS/android_system_core" />
   <project name="LineageOS/android_system_extras" />
@@ -568,10 +582,14 @@
   <project name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="cm-13.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_display-frameworks" revision="cm-13.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_dpm" revision="cm-13.0" />
+  <project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
   <project name="LineageOS/android_vendor_qcom_opensource_interfaces" revision="lineage-15.0" />
+  <project name="LineageOS/android_vendor_qcom_opensource_libfmjni" />
+  <project name="LineageOS/android_vendor_qcom_opensource_power" />
   <project name="LineageOS/android_vendor_qcom_opensource_rcs-service" revision="lineage-15.0" />
   <project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" />
   <project name="LineageOS/android_vendor_qcom_opensource_time-services" revision="cm-13.0" />
+  <project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
   <project name="LineageOS/cm_platform_sdk" revision="cm-12.1" />
   <project name="LineageOS/ion" />
   <project name="LineageOS/Superuser" />
