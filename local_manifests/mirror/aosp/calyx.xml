@@ -53,8 +53,10 @@
   <project name="calyxos/platform_hardware_qcom_thermal" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_wlan" remote="gitlab" />
   <project name="calyxos/platform_manifest" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Backgrounds" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Bluetooth" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Camera2" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_CertInstaller" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Contacts" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_DeskClock" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Dialer" remote="gitlab" />
@@ -68,7 +70,10 @@
   <project name="calyxos/platform_packages_apps_Settings" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_StorageManager" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_ThemePicker" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Updater" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_WallpaperPicker2" remote="gitlab" />
+  <project name="calyxos/platform_packages_inputmethods_LatinIME" remote="gitlab" />
   <project name="calyxos/platform_packages_services_Telephony" remote="gitlab" />
   <project name="calyxos/platform_packages_resources_devicesettings" remote="gitlab" />
   <project name="calyxos/platform_system_core" remote="gitlab" />
