@@ -14,6 +14,7 @@
   <project name="calyxos/device_google_taimen" remote="gitlab" />
   <project name="calyxos/device_google_wahoo" remote="gitlab" />
   <project name="calyxos/device_qcom_sepolicy" remote="gitlab" />
+  <project name="calyxos/device_qcom_sepolicy-legacy-um" remote="gitlab" />
   <project name="calyxos/device_xiaomi_jasmine_sprout" remote="gitlab" />
   <project name="calyxos/device_xiaomi_sdm660-common" remote="gitlab" />
   <project name="calyxos/device_xiaomi_wayne-common" remote="gitlab" />
@@ -22,6 +23,8 @@
   <project name="calyxos/kernel_google_coral" remote="gitlab" />
   <project name="calyxos/kernel_google_marlin" remote="gitlab" />
   <project name="calyxos/kernel_google_msm-4.9" remote="gitlab" />
+  <project name="calyxos/kernel_google_msm-4.9_drivers_staging_qcacld-3.0" remote="gitlab" />
+  <project name="calyxos/kernel_google_msm-4.9_techpack_audio" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" remote="gitlab" />
   <project name="calyxos/kernel_xiaomi_jasmine_sprout" remote="gitlab" />
   <project name="calyxos/platform_bionic" remote="gitlab" />
@@ -39,12 +42,18 @@
   <project name="calyxos/platform_frameworks_opt_timezonepicker" remote="gitlab" />
   <project name="calyxos/platform_hardware_calyx_interfaces" remote="gitlab" />
   <project name="calyxos/platform_hardware_interfaces" remote="gitlab" />
+  <project name="calyxos/platform_hardware_knowles_athletico_sound_trigger_hal" remote="gitlab" />
   <project name="calyxos/platform_hardware_libhardware" remote="gitlab" />
   <project name="calyxos/platform_hardware_libhardware_legacy" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_audio" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_bootctrl" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_bt" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom-caf_bt" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom-caf_common" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom-caf_msm8998_audio" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom-caf_msm8998_display" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom-caf_msm8998_media" remote="gitlab" />
+  <project name="calyxos/platform_hardware_qcom-caf_wlan" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_data_ipacfg-mgr" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_display" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_gps" remote="gitlab" />
@@ -67,6 +76,7 @@
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Launcher3" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Messaging" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Ripple" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Settings" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_StorageManager" remote="gitlab" />
