@@ -70,14 +70,17 @@
   <project name="calyxos/platform_packages_apps_DeskClock" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Dialer" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Eleven" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_EmergencyInfo" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Etar" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_ExactCalculator" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-Droid" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Launcher3" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Messaging" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_PackageInstaller" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Ripple" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Settings" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_SettingsIntelligence" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_StorageManager" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_ThemePicker" remote="gitlab" />
