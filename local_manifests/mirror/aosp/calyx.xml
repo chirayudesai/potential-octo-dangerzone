@@ -38,6 +38,7 @@
   <project name="calyxos/platform_frameworks_av" remote="gitlab" />
   <project name="calyxos/platform_frameworks_base" remote="gitlab" />
   <project name="calyxos/platform_frameworks_native" remote="gitlab" />
+  <project name="calyxos/platform_frameworks_opt_net_wifi" remote="gitlab" />
   <project name="calyxos/platform_frameworks_opt_telephony" remote="gitlab" />
   <project name="calyxos/platform_frameworks_opt_timezonepicker" remote="gitlab" />
   <project name="calyxos/platform_hardware_calyx_interfaces" remote="gitlab" />
@@ -65,6 +66,7 @@
   <project name="calyxos/platform_packages_apps_Backgrounds" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Bluetooth" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Camera2" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_CarrierConfig" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_CertInstaller" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Contacts" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_DeskClock" remote="gitlab" />
@@ -75,6 +77,7 @@
   <project name="calyxos/platform_packages_apps_ExactCalculator" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-Droid" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Gallery2" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Launcher3" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Messaging" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_PackageInstaller" remote="gitlab" />
@@ -82,14 +85,17 @@
   <project name="calyxos/platform_packages_apps_Settings" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SettingsIntelligence" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Stk" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_StorageManager" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_ThemePicker" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Updater" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_WallpaperPicker2" remote="gitlab" />
   <project name="calyxos/platform_packages_inputmethods_LatinIME" remote="gitlab" />
-  <project name="calyxos/platform_packages_services_Telephony" remote="gitlab" />
+  <project name="calyxos/platform_packages_providers_MediaProvider" remote="gitlab" />
   <project name="calyxos/platform_packages_resources_devicesettings" remote="gitlab" />
+  <project name="calyxos/platform_packages_services_Telephony" remote="gitlab" />
   <project name="calyxos/platform_system_core" remote="gitlab" />
+  <project name="calyxos/platform_system_netd" remote="gitlab" />
   <project name="calyxos/platform_system_vold" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_build-tools" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_calyx" remote="gitlab" />
