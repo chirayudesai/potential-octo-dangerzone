@@ -72,6 +72,9 @@
   <project name="device/google/marlin" />
   <project name="device/google/marlin-kernel" clone-depth="1" />
   <project name="device/google/muskie" />
+  <project name="device/google/sunfish" />
+  <project name="device/google/sunfish-kernel" clone-depth="1" />
+  <project name="device/google/sunfish-sepolicy" />
   <project name="device/google/taimen" />
   <project name="device/google/wahoo" />
   <project name="device/google/wahoo-kernel" clone-depth="1" />
@@ -610,6 +613,10 @@
   <project name="platform/hardware/qcom/sdm845/media" />
   <project name="platform/hardware/qcom/sdm845/thermal" />
   <project name="platform/hardware/qcom/sdm845/vr" />
+  <project name="platform/hardware/qcom/sm7150/display" />
+  <project name="platform/hardware/qcom/sm7150/gps" />
+  <project name="platform/hardware/qcom/sm7150/media" />
+  <project name="platform/hardware/qcom/sm7150/vr" />
   <project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
   <project name="platform/hardware/qcom/sm8150/display" />
   <project name="platform/hardware/qcom/sm8150/gps" />
@@ -621,7 +628,7 @@
   <project name="platform/hardware/st/nfc" />
   <project name="platform/hardware/st/secure_element" />
   <project name="platform/hardware/ti/am57x" />
-   <project name="kernel/build" />
+  <project name="kernel/build" />
   <project name="kernel/tests" />
   <project name="platform/libcore" />
   <project name="platform/libnativehelper" />
