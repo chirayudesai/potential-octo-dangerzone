@@ -8,6 +8,7 @@
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/htc/flounder-kernel" />
   <remove-project name="device/huawei/angler-kernel" />
