@@ -11,6 +11,7 @@
   <project name="calyxos/device_google_crosshatch" remote="gitlab" />
   <project name="calyxos/device_google_marlin" remote="gitlab" />
   <project name="calyxos/device_google_muskie" remote="gitlab" />
+  <project name="calyxos/device_google_sunfish" remote="gitlab" />
   <project name="calyxos/device_google_taimen" remote="gitlab" />
   <project name="calyxos/device_google_wahoo" remote="gitlab" />
   <project name="calyxos/device_qcom_sepolicy" remote="gitlab" />
@@ -25,6 +26,7 @@
   <project name="calyxos/kernel_google_msm-4.9" remote="gitlab" />
   <project name="calyxos/kernel_google_msm-4.9_drivers_staging_qcacld-3.0" remote="gitlab" />
   <project name="calyxos/kernel_google_msm-4.9_techpack_audio" remote="gitlab" />
+  <project name="calyxos/kernel_google_sunfish" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" remote="gitlab" />
   <project name="calyxos/kernel_xiaomi_jasmine_sprout" remote="gitlab" />
   <project name="calyxos/platform_bionic" remote="gitlab" />
