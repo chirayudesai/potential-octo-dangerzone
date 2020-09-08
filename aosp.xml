@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <default revision="refs/tags/android-10.0.0_r7"
+  <default revision="refs/tags/android-11.0.0_r1"
            remote="aosp"
            sync-j="4" />
   
@@ -12,12 +12,12 @@
 
   <project name="platform/build" />
   <project name="platform/build/blueprint" />
-  <project name="platform/build/kati" />
+  <project name="platform/build/kati" revision="android-10.0.0_r45" />
   <project name="platform/build/soong" />
   <project name="platform/art" />
   <project name="platform/bionic" />
   <project name="platform/bootable/recovery" />
-  <project name="platform/compatibility/cdd" revision="android-9.0.0_r38" />
+  <project name="platform/compatibility/cdd" />
   <project name="platform/cts" />
   <project name="platform/dalvik" />
   <project name="platform/developers/build" />
@@ -25,12 +25,13 @@
   <project name="platform/developers/samples/android" />
   <project name="platform/development" />
   <project name="device/amlogic/yukawa" />
-  <project name="device/amlogic/yukawa-kernel" clone-depth="1" />
+  <project name="device/amlogic/yukawa-kernel" clone-depth="2" />
   <project name="device/asus/fugu" revision="android-8.1.0_r1" />
   <project name="device/asus/fugu-kernel" revision="android-8.1.0_r1" clone-depth="1" />
   <project name="device/common" />
   <project name="device/generic/arm64" />
   <project name="device/generic/armv7-a-neon" />
+  <project name="device/generic/art" />
   <project name="device/generic/car" />
   <project name="device/generic/common" />
   <project name="device/generic/goldfish" />
@@ -63,19 +64,21 @@
   <project name="device/google/crosshatch-kernel" />
   <project name="device/google/crosshatch-sepolicy" />
   <project name="device/google/cuttlefish" />
-  <project name="device/google/cuttlefish_common" />
+  <project name="device/google/cuttlefish_common" revision="android-10.0.0_r45" />
   <project name="device/google/cuttlefish_kernel" clone-depth="1" />
   <project name="device/google/cuttlefish_vmm" />
   <project name="device/google/dragon" revision="android-8.1.0_r1" />
   <project name="device/google/dragon-kernel" revision="android-8.1.0_r1" clone-depth="1" />
   <project name="device/google/fuchsia" />
-  <project name="device/google/marlin" />
-  <project name="device/google/marlin-kernel" clone-depth="1" />
+  <project name="device/google/marlin" revision="android-10.0.0_r45" />
+  <project name="device/google/marlin-kernel" clone-depth="1" revision="android-10.0.0_r45" />
   <project name="device/google/muskie" />
   <project name="device/google/sunfish" />
   <project name="device/google/sunfish-kernel" clone-depth="1" />
   <project name="device/google/sunfish-sepolicy" />
   <project name="device/google/taimen" />
+  <project name="device/google/trout" />
+  <project name="device/google/vrservices" />
   <project name="device/google/wahoo" />
   <project name="device/google/wahoo-kernel" clone-depth="1" />
   <project name="device/google/vrservices" clone-depth="1" />
@@ -87,16 +90,18 @@
   <project name="device/linaro/bootloader/arm-trusted-firmware" />
   <project name="device/linaro/bootloader/edk2" />
   <project name="device/linaro/bootloader/OpenPlatformPkg" />
+  <project name="device/linaro/dragonboard" />
+  <project name="device/linaro/dragonboard-kernel" clone-depth="1" />
   <project name="device/linaro/hikey" />
   <project name="device/linaro/hikey-kernel" clone-depth="1" />
   <project name="device/linaro/poplar" />
   <project name="device/linaro/poplar-kernel" clone-depth="1" />
+  <project name="device/mediatek/wembley-sepolicy" />
   <project name="device/sample" />
   <project name="device/ti/beagle-x15" />
   <project name="device/ti/beagle-x15-kernel" clone-depth="1" />
-  <project name="kernel/configs" />
   <project name="platform/docs/source.android.com" revision="android-8.1.0_r1" />
-  <project name="platform/external/ARMComputeLibrary" />
+  <project name="platform/external/ARMComputeLibrary" revision="android-10.0.0_r45" />
   <project name="platform/external/aac" />
   <project name="platform/external/abi-compliance-checker" revision="android-9.0.0_r38" />
   <project name="platform/external/abi-dumper" revision="android-9.0.0_r38" />
@@ -105,6 +110,7 @@
   <project name="platform/external/adt-infra" />
   <project name="platform/external/android-clat" />
   <project name="platform/external/androidplot" />
+  <project name="platform/external/angle" />
   <project name="platform/external/annotation-tools" revision="android-9.0.0_r38" />
   <project name="platform/external/ant-glob" />
   <project name="platform/external/antlr" />
@@ -114,11 +120,13 @@
   <project name="platform/external/apache-harmony" />
   <project name="platform/external/apache-http" />
   <project name="platform/external/apache-xml" />
-  <project name="platform/external/archive-patcher" />
+  <project name="platform/external/archive-patcher" revision="android-10.0.0_r45" />
   <project name="platform/external/arm-neon-tests" />
   <project name="platform/external/arm-optimized-routines" />
+  <project name="platform/external/arm-trusted-firmware" />
   <project name="platform/external/autotest" />
   <project name="platform/external/avb" />
+  <project name="platform/external/bc" />
   <project name="platform/external/bart" revision="android-9.0.0_r38" />
   <project name="platform/external/bcc" />
   <project name="platform/external/bison" revision="android-8.1.0_r1" />
@@ -133,17 +141,21 @@
   <project name="platform/external/capstone" />
   <project name="platform/external/catch2" />
   <project name="platform/external/cblas" />
+  <project name="platform/external/cbor-java" />
   <project name="platform/external/chromium-libpac" />
   <project name="platform/external/chromium-trace" />
   <project name="platform/external/chromium-webview" clone-depth="1" />
   <project name="platform/external/clang" />
   <project name="platform/external/cldr" />
-  <project name="platform/external/cmockery" />
+  <project name="platform/external/cmockery" revision="android-10.0.0_r45" />
   <project name="platform/external/cn-cbor" />
   <project name="platform/external/compiler-rt" />
   <project name="platform/external/conscrypt" />
+  <project name="platform/external/cpu_features" />
+  <project name="platform/external/cpuinfo" />
   <project name="platform/external/crcalc" />
   <project name="platform/external/cros/system_api" />
+  <project name="platform/external/crosvm" />
   <project name="platform/external/curl" />
   <project name="platform/external/dagger2" />
   <project name="platform/external/devlib" revision="android-9.0.0_r38" />
@@ -151,6 +163,7 @@
   <project name="platform/external/deqp-deps/SPIRV-Headers" />
   <project name="platform/external/deqp-deps/SPIRV-Tools" />
   <project name="platform/external/deqp-deps/glslang" />
+  <project name="platform/external/deqp-deps/amber" />
   <project name="platform/external/dexmaker" />
   <project name="platform/external/desugar" />
   <project name="platform/external/dhcpcd-6.8.2" revision="android-9.0.0_r38" />
@@ -162,7 +175,7 @@
   <project name="platform/external/dokka" />
   <project name="platform/external/drm_gralloc" revision="android-9.0.0_r38" />
   <project name="platform/external/drm_hwcomposer" />
-  <project name="platform/external/droiddriver" />
+  <project name="platform/external/droiddriver" revision="android-10.0.0_r45" />
   <project name="platform/external/drrickorang" />
   <project name="platform/external/dtc" />
   <project name="platform/external/dynamic_depth" />
@@ -176,9 +189,12 @@
   <project name="platform/external/epid-sdk" />
   <project name="platform/external/error_prone" />
   <project name="platform/external/esd" revision="android-9.0.0_r38" />
+  <project name="platform/external/ethtool" />
+  <project name="platform/external/exoplayer" />
   <project name="platform/external/expat" />
   <project name="platform/external/eyes-free" revision="android-9.0.0_r38" />
   <project name="platform/external/f2fs-tools" />
+  <project name="platform/external/fastrpc" />
   <project name="platform/external/fdlibm" revision="android-8.1.0_r1" />
   <project name="platform/external/fec" />
   <project name="platform/external/fio" revision="android-9.0.0_r38" />
@@ -189,6 +205,8 @@
   <project name="platform/external/freetype" />
   <project name="platform/external/fsck_msdos" />
   <project name="platform/external/fsverity-utils" />
+  <project name="platform/external/FP16" />
+  <project name="platform/external/FXdiv" />
   <project name="platform/external/gemmlowp" />
   <project name="platform/external/gflags" />
   <project name="platform/external/giflib" />
@@ -198,6 +216,11 @@
   <project name="platform/external/google-benchmark" />
   <project name="platform/external/google-breakpad" />
   <project name="platform/external/google-fonts/arbutus-slab" />
+  <project name="platform/external/google-fonts/barlow" />
+  <project name="platform/external/google-fonts/karla" />
+  <project name="platform/external/google-fonts/lustria" />
+  <project name="platform/external/google-fonts/fraunces" />
+  <project name="platform/external/google-fonts/big-shoulders-text" />
   <project name="platform/external/google-fonts/arvo" />
   <project name="platform/external/google-fonts/carrois-gothic-sc" />
   <project name="platform/external/google-fonts/coming-soon" />
@@ -216,11 +239,13 @@
   <project name="platform/external/grpc-grpc-java" />
   <project name="platform/external/guava" />
   <project name="platform/external/guice" />
+  <project name="platform/external/gwp_asan" />
   <project name="platform/external/hamcrest" />
   <project name="platform/external/harfbuzz_ng" />
   <project name="platform/external/honggfuzz" />
   <project name="platform/external/hyphenation-patterns" />
   <project name="platform/external/icu" />
+  <project name="platform/external/igt-gpu-tools" />
   <project name="platform/external/ImageMagick" />
   <project name="platform/external/image_io" />
   <project name="platform/external/ims" />
@@ -253,6 +278,7 @@
   <project name="platform/external/kernel-headers" />
   <project name="platform/external/kmod" />
   <project name="platform/external/kotlinc" />
+  <project name="platform/external/kotlinx.coroutines" />
   <project name="platform/external/ksoap2" />
   <project name="platform/external/libaom" />
   <project name="platform/external/libavc" />
@@ -265,16 +291,19 @@
   <project name="platform/external/libcups" />
   <project name="platform/external/libcxx" />
   <project name="platform/external/libcxxabi" />
+  <project name="platform/external/libdaemon" />
   <project name="platform/external/libdivsufsort" />
   <project name="platform/external/libdrm" />
   <project name="platform/external/libedit" revision="android-9.0.0_r38" />
+  <project name="platform/external/libepoxy" />
   <project name="platform/external/libese" />
-  <project name="platform/external/libdaemon" />
   <project name="platform/external/libevent" />
   <project name="platform/external/libexif" />
+  <project name="platform/external/libfuse" />
   <project name="platform/external/libgav1" />
   <project name="platform/external/libgsm" />
   <project name="platform/external/libhevc" />
+  <project name="platform/external/libiio" />
   <project name="platform/external/libjpeg-turbo" />
   <project name="platform/external/libkmsxx" />
   <project name="platform/external/libldac" />
@@ -282,7 +311,7 @@
   <project name="platform/external/libmicrohttpd" revision="android-9.0.0_r38" />
   <project name="platform/external/libmojo" revision="android-9.0.0_r38" />
   <project name="platform/external/libmpeg2" />
-  <project name="platform/external/libmtp" />
+  <project name="platform/external/libmtp" revision="android-10.0.0_r45" />
   <project name="platform/external/libnetfilter_conntrack" />
   <project name="platform/external/libnfnetlink" />
   <project name="platform/external/libnl" />
@@ -292,10 +321,11 @@
   <project name="platform/external/libphonenumber" />
   <project name="platform/external/libpng" />
   <project name="platform/external/libprotobuf-mutator" />
+  <project name="platform/external/libsrtp2" />
   <project name="platform/external/libunwind" />
   <project name="platform/external/libunwind_llvm" />
   <project name="platform/external/libusb" />
-  <project name="platform/external/libusb-compat" />
+  <project name="platform/external/libusb-compat" revision="android-10.0.0_r45" />
   <project name="platform/external/libvncserver" revision="android-9.0.0_r38" />
   <project name="platform/external/libvorbis" revision="android-8.1.0_r1" />
   <project name="platform/external/libutf" />
@@ -307,7 +337,7 @@
   <project name="platform/external/libxml2" />
   <project name="platform/external/libtextclassifier" />
   <project name="platform/external/libyuv" />
-  <project name="platform/external/linux-kselftest" />
+  <project name="platform/external/linux-kselftest" clone-depth="1" />
   <project name="platform/external/lisa" revision="android-9.0.0_r38" />
   <project name="platform/external/littlemock" revision="android-8.1.0_r1" />
   <project name="platform/external/lld" revision="android-8.1.0_r1" />
@@ -321,7 +351,8 @@
   <project name="platform/external/mdnsresponder" />
   <project name="platform/external/mesa3d" />
   <project name="platform/external/messageformat" revision="android-8.1.0_r1" />
-  <project name="platform/external/Microsoft-GSL" />
+  <project name="platform/external/Microsoft-GSL" revision="android-10.0.0_r45" />
+  <project name="platform/external/mime-support" />
   <project name="platform/external/minigbm" />
   <project name="platform/external/minijail" />
   <project name="platform/external/mksh" />
@@ -353,90 +384,106 @@
   <project name="platform/external/okhttp" />
   <project name="platform/external/one-true-awk" />
   <project name="platform/external/opencensus-java" />
+  <project name="platform/external/OpenCL-CTS" />
+  <project name="platform/external/OpenCSD" />
   <project name="platform/external/opencv" />
   <project name="platform/external/opencv3" />
   <project name="platform/external/openssh" />
+  <project name="platform/external/oss-fuzz" />
   <project name="platform/external/owasp/sanitizer" />
   <project name="platform/external/parameter-framework" />
   <project name="platform/external/pcre" />
   <project name="platform/external/pdfium" />
-  <project name="platform/external/perf_data_converter" />
+  <project name="platform/external/perf_data_converter" revision="android-10.0.0_r45" />
   <project name="platform/external/perfetto" />
   <project name="platform/external/piex" />
   <project name="platform/external/ply" />
   <project name="platform/external/ppp" />
   <project name="platform/external/proguard" />
   <project name="platform/external/protobuf" />
-  <project name="platform/external/protobuf-javalite" />
+  <project name="platform/external/protobuf-javalite" revision="android-10.0.0_r45" />
+  <project name="platform/external/psimd" />
+  <project name="platform/external/pthreadpool" />
   <project name="platform/external/puffin" />
   <project name="platform/external/python/apitools" />
-  <project name="platform/external/python/appdirs" />
+  <project name="platform/external/python/appdirs" revision="android-10.0.0_r45" />
   <project name="platform/external/python/asn1crypto" />
-  <project name="platform/external/python/atomicwrites" />
-  <project name="platform/external/python/attrs" />
-  <project name="platform/external/python/cachetools" />
+  <project name="platform/external/python/atomicwrites" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/attrs" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/cachetools" revision="android-10.0.0_r45" />
   <project name="platform/external/python/cffi" />
   <project name="platform/external/python/cpython2" />
   <project name="platform/external/python/cpython3" />
   <project name="platform/external/python/cryptography" />
   <project name="platform/external/python/dateutil" />
-  <project name="platform/external/python/dill" />
-  <project name="platform/external/python/enum" />
+  <project name="platform/external/python/dill" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/enum" revision="android-10.0.0_r45" />
   <project name="platform/external/python/enum34" />
   <project name="platform/external/python/funcsigs" />
-  <project name="platform/external/python/future" />
+  <project name="platform/external/python/future" revision="android-10.0.0_r45" />
   <project name="platform/external/python/futures" />
-  <project name="platform/external/python/gapic-google-cloud-pubsub-v1" />
+  <project name="platform/external/python/gapic-google-cloud-pubsub-v1" revision="android-10.0.0_r45" />
   <project name="platform/external/python/google-api-python-client" />
-  <project name="platform/external/python/google-auth" />
-  <project name="platform/external/python/google-auth-httplib2" />
-  <project name="platform/external/python/google-cloud-core" />
-  <project name="platform/external/python/google-cloud-pubsub" />
-  <project name="platform/external/python/google-gax" />
-  <project name="platform/external/python/googleapis" />
-  <project name="platform/external/python/grpc-google-iam-v1" />
-  <project name="platform/external/python/grpcio" />
+  <project name="platform/external/python/google-auth" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/google-auth-httplib2" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/google-cloud-core" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/google-cloud-pubsub" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/google-gax" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/googleapis" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/grpc-google-iam-v1" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/grpcio" revision="android-10.0.0_r45" />
   <project name="platform/external/python/httplib2" />
-  <project name="platform/external/python/matplotlib" />
+  <project name="platform/external/python/ipaddress" />
+  <project name="platform/external/python/matplotlib" revision="android-10.0.0_r45" />
   <project name="platform/external/python/mock" />
-  <project name="platform/external/python/more-itertools" />
-  <project name="platform/external/python/numpy" />
+  <project name="platform/external/python/more-itertools" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/numpy" revision="android-10.0.0_r45" />
   <project name="platform/external/python/oauth2client" />
-  <project name="platform/external/python/olefile" />
-  <project name="platform/external/python/packaging" />
-  <project name="platform/external/python/parse" />
-  <project name="platform/external/python/Pillow" />
-  <project name="platform/external/python/ply" />
-  <project name="platform/external/python/pluggy" />
-  <project name="platform/external/python/proto-google-cloud-pubsub-v1" />
-  <project name="platform/external/python/protobuf" />
-  <project name="platform/external/python/py" />
+  <project name="platform/external/python/olefile" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/packaging" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/parse" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/parse_type" />
+  <project name="platform/external/python/Pillow" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/ply" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/pluggy" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/proto-google-cloud-pubsub-v1" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/protobuf" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/py" revision="android-10.0.0_r45" />
   <project name="platform/external/python/pyasn1" />
   <project name="platform/external/python/pyasn1-modules" />
+  <project name="platform/external/python/pybind11" />
   <project name="platform/external/python/pycparser" />
   <project name="platform/external/python/pyopenssl" />
-  <project name="platform/external/python/pyparsing" />
-  <project name="platform/external/python/pytest" />
-  <project name="platform/external/python/requests" />
+  <project name="platform/external/python/pyparsing" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/pytest" revision="android-10.0.0_r45" />
+  <project name="platform/external/python/requests" revision="android-10.0.0_r45" />
   <project name="platform/external/python/rsa" />
-  <project name="platform/external/python/scipy" />
+  <project name="platform/external/python/scipy" revision="android-10.0.0_r45" />
   <project name="platform/external/python/setuptools" />
   <project name="platform/external/python/six" />
   <project name="platform/external/python/uritemplates" />
   <project name="platform/external/r8" revision="android-8.1.0_r1" />
-  <project name="platform/external/rapidjson" />
+  <project name="platform/external/rapidjson" revision="android-10.0.0_r45" />
   <project name="platform/external/rappor" />
   <project name="platform/external/regex-re2" revision="android-8.1.0_r1" />
   <project name="platform/external/replicaisland" />
   <project name="platform/external/rmi4utils" />
-  <project name="platform/external/robolectric" />
+  <project name="platform/external/robolectric" revision="android-10.0.0_r45" />
   <project name="platform/external/roboto-fonts" />
   <project name="platform/external/robolectric-shadows" />
   <project name="platform/external/rootdev" />
   <project name="platform/external/Reactive-Extensions/RxCpp" />
+  <project name="platform/external/rust/crates/byteorder" />
+  <project name="platform/external/rust/crates/libc" />
+  <project name="platform/external/rust/crates/proc-macro2" />
+  <project name="platform/external/rust/crates/quote" />
+  <project name="platform/external/rust/crates/remain" />
+  <project name="platform/external/rust/crates/syn" />
+  <project name="platform/external/rust/crates/unicode-xid" />
   <project name="platform/external/safe-iop" revision="android-9.0.0_r38" />
   <project name="platform/external/scapy" />
   <project name="platform/external/scrypt" />
+  <project name="platform/external/scudo" />
   <project name="platform/external/seccomp-tests" />
   <project name="platform/external/selinux" />
   <project name="platform/external/setupcompat" />
@@ -451,7 +498,7 @@
   <project name="platform/external/smali" />
   <project name="platform/external/snakeyaml" />
   <project name="platform/external/sonic" />
-  <project name="platform/external/spirv-llvm" />
+  <project name="platform/external/spirv-llvm" revision="android-10.0.0_r45" />
   <project name="platform/external/sonivox" />
   <project name="platform/external/speex" />
   <project name="platform/external/sqlite" />
@@ -462,7 +509,7 @@
   <project name="platform/external/svox" revision="android-8.1.0_r1" />
   <project name="platform/external/swiftshader" />
   <project name="platform/external/syslinux" revision="android-9.0.0_r38" />
-  <project name="platform/external/syzkaller" />
+  <project name="platform/external/syzkaller" revision="android-10.0.0_r45" />
   <project name="platform/external/tagsoup" />
   <project name="platform/external/tensorflow" />
   <project name="platform/external/testng" />
@@ -506,6 +553,7 @@
   <project name="platform/external/xmp_toolkit" />
   <project name="platform/external/xz-embedded" />
   <project name="platform/external/xz-java" />
+  <project name="platform/external/XNNPACK" />
   <project name="platform/external/yapf" />
   <project name="platform/external/zlib" />
   <project name="platform/external/zopfli" />
@@ -519,6 +567,10 @@
   <project name="platform/frameworks/ex" />
   <project name="platform/frameworks/hardware/interfaces" />
   <project name="platform/frameworks/layoutlib" />
+  <project name="platform/frameworks/libs/systemui" />
+  <project name="platform/frameworks/libs/modules-utils" />
+  <project name="platform/frameworks/libs/native_bridge_support" />
+  <project name="platform/frameworks/libs/net" />
   <project name="platform/frameworks/minikin" />
   <project name="platform/frameworks/ml" />
   <project name="platform/frameworks/multidex" />
@@ -530,13 +582,14 @@
   <project name="platform/frameworks/opt/car/setupwizard" />
   <project name="platform/frameworks/opt/chips" />
   <project name="platform/frameworks/opt/colorpicker" />
-  <project name="platform/frameworks/opt/datetimepicker" />
+  <project name="platform/frameworks/opt/datetimepicker" revision="android-10.0.0_r45" />
   <project name="platform/frameworks/opt/emoji" revision="android-8.0.0_r1" />
+  <project name="platform/frameworks/opt/gamesdk" revision="android-10.0.0_r45" />
   <project name="platform/frameworks/opt/inputconnectioncommon" revision="android-9.0.0_r38" />
   <project name="platform/frameworks/opt/inputmethodcommon" revision="android-9.0.0_r38" />
-  <project name="platform/frameworks/opt/gamesdk" />
+  <project name="platform/frameworks/opt/localepicker" />
   <project name="platform/frameworks/opt/net/ethernet" />
-  <project name="platform/frameworks/opt/net/ike" />
+  <project name="platform/frameworks/opt/net/ike" revision="android-10.0.0_r45" />
   <project name="platform/frameworks/opt/net/ims" />
   <project name="platform/frameworks/opt/net/lowpan" revision="android-9.0.0_r38" />
   <project name="platform/frameworks/opt/net/voip" />
@@ -545,6 +598,7 @@
   <project name="platform/frameworks/opt/setupwizard" />
   <project name="platform/frameworks/opt/telephony" />
   <project name="platform/frameworks/opt/timezonepicker" />
+  <project name="platform/frameworks/opt/tv/tvsystem" />
   <project name="platform/frameworks/opt/vcard" />
   <project name="platform/frameworks/rs" />
   <project name="platform/frameworks/support" revision="android-9.0.0_r38" />
@@ -555,6 +609,7 @@
   <project name="platform/hardware/broadcom/wlan" />
   <project name="platform/hardware/google/apf" />
   <project name="platform/hardware/google/av" />
+  <project name="platform/hardware/google/camera" />
   <project name="platform/hardware/google/easel" />
   <project name="platform/hardware/google/interfaces" />
   <project name="platform/hardware/google/pixel" />
@@ -613,22 +668,25 @@
   <project name="platform/hardware/qcom/sdm845/media" />
   <project name="platform/hardware/qcom/sdm845/thermal" />
   <project name="platform/hardware/qcom/sdm845/vr" />
-  <project name="platform/hardware/qcom/sm7150/display" />
+  <project name="platform/hardware/qcom/sm7150/display" revision="android-10.0.0_r45" />
   <project name="platform/hardware/qcom/sm7150/gps" />
-  <project name="platform/hardware/qcom/sm7150/media" />
-  <project name="platform/hardware/qcom/sm7150/vr" />
+  <project name="platform/hardware/qcom/sm7150/media" revision="android-10.0.0_r45" />
+  <project name="platform/hardware/qcom/sm7150/vr" revision="android-10.0.0_r45" />
   <project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
   <project name="platform/hardware/qcom/sm8150/display" />
   <project name="platform/hardware/qcom/sm8150/gps" />
   <project name="platform/hardware/qcom/sm8150/media" />
   <project name="platform/hardware/qcom/sm8150/thermal" />
   <project name="platform/hardware/qcom/sm8150/vr" />
+  <project name="platform/hardware/qcom/sm8150p/gps" />
   <project name="platform/hardware/qcom/wlan" />
   <project name="platform/hardware/ril" />
   <project name="platform/hardware/st/nfc" />
   <project name="platform/hardware/st/secure_element" />
   <project name="platform/hardware/ti/am57x" />
   <project name="kernel/build" />
+  <project name="kernel/configs" />
+  <project name="kernel/prebuilts/4.19/arm64" clone-depth="1" />
   <project name="kernel/tests" />
   <project name="platform/libcore" />
   <project name="platform/libnativehelper" />
@@ -637,25 +695,27 @@
   <project name="platform/packages/apps/Browser2" />
   <project name="platform/packages/apps/Calendar" />
   <project name="platform/packages/apps/Camera2" />
+  <project name="platform/packages/apps/Car/Calendar" />
   <project name="platform/packages/apps/Car/Cluster" />
   <project name="platform/packages/apps/Car/CompanionDeviceSupport" />
   <project name="platform/packages/apps/Car/Dialer" />
   <project name="platform/packages/apps/Car/Hvac" />
   <project name="platform/packages/apps/Car/LatinIME" />
   <project name="platform/packages/apps/Car/Launcher" />
-  <project name="platform/packages/apps/Car/LensPicker" />
+  <project name="platform/packages/apps/Car/LensPicker" revision="android-10.0.0_r45" />
   <project name="platform/packages/apps/Car/LinkViewer" />
   <project name="platform/packages/apps/Car/LocalMediaPlayer" />
   <project name="platform/packages/apps/Car/Media" />
   <project name="platform/packages/apps/Car/Messenger" />
   <project name="platform/packages/apps/Car/Notification" />
-  <project name="platform/packages/apps/Car/Overview" />
+  <project name="platform/packages/apps/Car/Overview" revision="android-10.0.0_r45" />
   <project name="platform/packages/apps/Car/Radio" />
+  <project name="platform/packages/apps/Car/RotaryController" />
   <project name="platform/packages/apps/Car/Settings" />
-  <project name="platform/packages/apps/Car/Stream" />
+  <project name="platform/packages/apps/Car/Stream" revision="android-10.0.0_r45" />
   <project name="platform/packages/apps/Car/SystemUpdater" />
   <project name="platform/packages/apps/Car/UserManagement" revision="android-8.1.0_r1" />
-  <project name="platform/packages/apps/Car/externallibs" />
+  <project name="platform/packages/apps/Car/externallibs" revision="android-10.0.0_r45" />
   <project name="platform/packages/apps/Car/libs" />
   <project name="platform/packages/apps/Car/tests" />
   <project name="platform/packages/apps/CarrierConfig" />
@@ -666,7 +726,7 @@
   <project name="platform/packages/apps/DevCamera" />
   <project name="platform/packages/apps/Dialer" />
   <project name="platform/packages/apps/DocumentsUI" />
-  <project name="platform/packages/apps/Email" />
+  <project name="platform/packages/apps/Email" revision="android-10.0.0_r45" />
   <project name="platform/packages/apps/EmergencyInfo" />
   <project name="platform/packages/apps/ExactCalculator" revision="android-9.0.0_r38" />
   <project name="platform/packages/apps/Gallery" />
@@ -681,6 +741,7 @@
   <project name="platform/packages/apps/Music" />
   <project name="platform/packages/apps/MusicFX" />
   <project name="platform/packages/apps/Nfc" />
+  <project name="platform/packages/apps/OnDeviceAppPrediction" />
   <project name="platform/packages/apps/OneTimeInitializer" />
   <project name="platform/packages/apps/PackageInstaller" revision="android-9.0.0_r38" />
   <project name="platform/packages/apps/Phone" revision="android-8.0.0_r1" />
@@ -688,6 +749,7 @@
   <project name="platform/packages/apps/Protips" />
   <project name="platform/packages/apps/Provision" />
   <project name="platform/packages/apps/QuickSearchBox" />
+  <project name="platform/packages/apps/QuickAccessWallet" />
   <project name="platform/packages/apps/RetailDemo" revision="android-8.0.0_r1" />
   <project name="platform/packages/apps/SafetyRegulatoryInfo" />
   <project name="platform/packages/apps/SampleLocationAttribution" />
@@ -708,20 +770,28 @@
   <project name="platform/packages/apps/Traceur" />
   <project name="platform/packages/apps/TvSettings" />
   <project name="platform/packages/apps/TV" />
-  <project name="platform/packages/apps/UnifiedEmail" />
+  <project name="platform/packages/apps/UnifiedEmail" revision="android-10.0.0_r45" />
   <project name="platform/packages/apps/UniversalMediaPlayer" />
   <project name="platform/packages/apps/WallpaperPicker" />
   <project name="platform/packages/apps/WallpaperPicker2" />
   <project name="platform/packages/experimental" revision="android-9.0.0_r38" />
   <project name="platform/packages/inputmethods/LatinIME" />
+  <project name="platform/packages/inputmethods/LeanbackIME" />
   <project name="platform/packages/inputmethods/OpenWnn" revision="android-9.0.0_r38" />
+  <project name="platform/packages/modules/ArtPrebuilt" />
   <project name="platform/packages/modules/CaptivePortalLogin" />
+  <project name="platform/packages/modules/CellBroadcastService" />
+  <project name="platform/packages/modules/Cronet" />
+  <project name="platform/packages/modules/DnsResolver" />
   <project name="platform/packages/modules/ExtServices" />
+  <project name="platform/packages/modules/IPsec" />
   <project name="platform/packages/modules/ModuleMetadata" />
   <project name="platform/packages/modules/NetworkPermissionConfig" />
   <project name="platform/packages/modules/NetworkStack" />
+  <project name="platform/packages/modules/SdkExtensions" />
   <project name="platform/packages/modules/TestModule" />
-  <project name="platform/packages/providers/ApplicationsProvider" />
+  <project name="platform/packages/modules/vndk" />
+  <project name="platform/packages/providers/ApplicationsProvider" revision="android-10.0.0_r45" />
   <project name="platform/packages/providers/BlockedNumberProvider" />
   <project name="platform/packages/providers/BookmarkProvider" />
   <project name="platform/packages/providers/CalendarProvider" />
@@ -740,13 +810,16 @@
   <project name="platform/packages/services/BuiltInPrintService" />
   <project name="platform/packages/services/Car" />
   <project name="platform/packages/services/Mms" />
+  <project name="platform/packages/services/Mtp" />
   <project name="platform/packages/services/NetworkRecommendation" revision="android-9.0.0_r38" />
   <project name="platform/packages/services/Telecomm" />
   <project name="platform/packages/services/Telephony" />
+  <project name="platform/packages/wallpapers/ImageWallpaper" />
   <project name="platform/packages/wallpapers/LivePicker" />
   <project name="platform/pdk" />
   <project name="platform/platform_testing" />
   <project name="platform/prebuilts/abi-dumps/ndk" clone-depth="1" />
+  <project name="platform/prebuilts/abi-dumps/platform" clone-depth="1" />
   <project name="platform/prebuilts/abi-dumps/vndk" clone-depth="1" />
   <project name="platform/prebuilts/android-emulator" clone-depth="1" />
   <project name="platform/prebuilts/asuite" clone-depth="1" />
@@ -757,6 +830,7 @@
   <project name="platform/prebuilts/clang-tools" />
   <project name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" />
   <project name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project name="platform/prebuilts/cmdline-tools" clone-depth="1" />
   <project name="platform/prebuilts/deqp" revision="android-9.0.0_r38" />
   <project name="platform/prebuilts/devtools" />
   <project name="platform/prebuilts/fuchsia_sdk" clone-depth="1" />
@@ -780,6 +854,7 @@
   <project name="platform/prebuilts/go/darwin-x86" />
   <project name="platform/prebuilts/go/linux-x86" />
   <project name="platform/prebuilts/gradle-plugin" />
+  <project name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project name="platform/prebuilts/jdk/jdk8" />
   <project name="platform/prebuilts/jdk/jdk9" />
   <project name="platform/prebuilts/ktlint" />
@@ -787,22 +862,27 @@
   <project name="platform/prebuilts/manifest-merger" />
   <project name="platform/prebuilts/maven_repo/android" />
   <project name="platform/prebuilts/maven_repo/bumptech" clone-depth="1" />
-  <project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
+  <project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" revision="android-10.0.0_r45" />
   <project name="platform/prebuilts/misc" />
+  <project name="platform/prebuilts/module_sdk/art" clone-depth="1" />
   <project name="platform/prebuilts/ndk" />
   <project name="platform/prebuilts/ninja/darwin-x86" />
   <project name="platform/prebuilts/ninja/linux-x86" />
   <project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <project name="platform/prebuilts/python/linux-x86/2.7.5" />
   <project name="platform/prebuilts/qemu-kernel" clone-depth="1" />
+  <project name="platform/prebuilts/remoteexecution-client" clone-depth="1" />
+  <project name="platform/prebuilts/runtime" clone-depth="1" />
+  <project name="platform/prebuilts/rust" clone-depth="1" />
   <project name="platform/prebuilts/r8" />
   <project name="platform/prebuilts/sdk" />
   <project name="platform/prebuilts/tools" />
   <project name="platform/prebuilts/vndk/v27" />
   <project name="platform/prebuilts/vndk/v28" />
+  <project name="platform/prebuilts/vndk/v29" clone-depth="1" />
   <project name="platform/sdk" />
   <project name="platform/system/apex" />
-  <project name="platform/system/ashmemd" />
+  <project name="platform/system/ashmemd" revision="android-10.0.0_r45" />
   <project name="platform/system/bt" />
   <project name="platform/system/bpf" />
   <project name="platform/system/bpfprogs" />
@@ -816,9 +896,11 @@
   <project name="platform/system/gsid" />
   <project name="platform/system/hardware/interfaces" />
   <project name="platform/system/hwservicemanager" />
+  <project name="platform/system/incremental_delivery" />
   <project name="platform/system/iorap" />
   <project name="platform/system/iot/attestation" revision="android-9.0.0_r38" />
   <project name="platform/system/keymaster" />
+  <project name="platform/system/libartpalette" />
   <project name="platform/system/libfmq" />
   <project name="platform/system/libhidl" />
   <project name="platform/system/libhwbinder" />
@@ -827,28 +909,36 @@
   <project name="platform/system/libvintf" />
   <project name="platform/system/linkerconfig" />
   <project name="platform/system/media" />
+  <project name="platform/system/memory/libion" />
+  <project name="platform/system/memory/libmeminfo" />
+  <project name="platform/system/memory/libmemtrack" />
+  <project name="platform/system/memory/libmemunreachable" />
+  <project name="platform/system/memory/lmkd" />
   <project name="platform/system/netd" />
   <project name="platform/system/nfc" />
   <project name="platform/system/nvram" />
   <project name="platform/system/security" />
   <project name="platform/system/sepolicy" />
   <project name="platform/system/server_configurable_flags" />
+  <project name="platform/system/teeui" />
   <project name="platform/system/testing/gtest_extras" />
-  <project name="platform/system/tools/aidl" />
   <project name="platform/system/timezone" />
+  <project name="platform/system/tools/aidl" />
   <project name="platform/system/tools/hidl" />
+  <project name="platform/system/tools/mkbootimg" />
   <project name="platform/system/tools/sysprop" />
   <project name="platform/system/tools/xsdc" />
   <project name="platform/system/tpm" revision="android-9.0.0_r38" />
   <project name="platform/system/update_engine" />
-  <project name="platform/system/ucontainer" />
+  <project name="platform/system/ucontainer" revision="android-10.0.0_r45" />
   <project name="platform/system/vold" />
   <project name="platform/test/framework" />
   <project name="platform/test/mlts/benchmark" />
   <project name="platform/test/mlts/models" />
+  <project name="platform/test/app_compat/csuite" />
   <project name="platform/test/mts" />
   <project name="platform/test/suite_harness" />
-  <project name="platform/test/vti/alert" />
+  <project name="platform/test/vti/alert" revision="android-10.0.0_r45" />
   <project name="platform/test/vti/dashboard" />
   <project name="platform/test/vti/fuzz_test_serving" />
   <project name="platform/test/vti/test_serving" />
@@ -861,7 +951,6 @@
   <project name="platform/test/vts-testcase/performance" />
   <project name="platform/test/vts-testcase/security" />
   <project name="platform/test/vts-testcase/vndk" />
-  <project name="toolchain/binutils" revision="android-9.0.0_r38" />
   <project name="platform/test/sts" />
   <project name="platform/tools/acloud" />
   <project name="platform/tools/adt/idea" />
@@ -872,15 +961,18 @@
   <project name="platform/tools/asuite" />
   <project name="platform/tools/base" />
   <project name="platform/tools/build" />
+  <project name="platform/tools/carrier_settings" />
   <project name="platform/tools/currysrc" />
   <project name="platform/tools/dexter" />
+  <project name="platform/tools/doc_generation" />
   <project name="platform/tools/external_updater" />
   <project name="platform/tools/external/fat32lib" />
-  <project name="platform/tools/external/gradle" clone-depth="1" />
+  <project name="platform/tools/external/gradle" clone-depth="1" revision="android-10.0.0_r45" />
   <project name="platform/tools/idea" />
   <project name="platform/tools/loganalysis" />
   <project name="platform/tools/metalava" />
   <project name="platform/tools/motodev" />
+  <project name="platform/tools/platform-compat" />
   <project name="platform/tools/ndkports" />
   <project name="platform/tools/repohooks" />
   <project name="platform/tools/security" />
@@ -890,9 +982,11 @@
   <project name="platform/tools/test/graphicsbenchmark" />
   <project name="platform/tools/tradefederation" />
   <project name="platform/tools/tradefederation/contrib" />
-  <project name="toolchain/benchmark" />
-  <project name="toolchain/pgo-profiles" />
+  <project name="platform/tools/treble" />
   <project name="platform/tools/trebuchet" />
+  <project name="toolchain/benchmark" />
+  <project name="toolchain/binutils" revision="android-9.0.0_r38" />
+  <project name="toolchain/pgo-profiles" />
 
   <!-- Projects removed in 8.1 and 9.0 are kept inline -->
 
