@@ -1218,7 +1218,6 @@
   <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project name="platform/prebuilts/runtime" revision="refs/tags/android-4.4.4_r2.0.1" />
 
   <!-- Deleted project -->
   <!-- <project name="platform/packages/apps/OMA-DM" /> -->
