@@ -971,7 +971,6 @@
   <project name="platform/tools/loganalysis" />
   <project name="platform/tools/metalava" />
   <project name="platform/tools/motodev" />
-  <project name="platform/tools/platform-compat" />
   <project name="platform/tools/ndkports" />
   <project name="platform/tools/repohooks" />
   <project name="platform/tools/security" />
@@ -986,6 +985,7 @@
   <project name="toolchain/benchmark" />
   <project name="toolchain/binutils" revision="android-9.0.0_r38" />
   <project name="toolchain/pgo-profiles" />
+  <project name="tools/platform-compat" />
 
   <!-- Projects removed in 8.1 and 9.0 are kept inline -->
 
