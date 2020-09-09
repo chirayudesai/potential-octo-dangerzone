@@ -81,7 +81,6 @@
   <project name="device/google/vrservices" />
   <project name="device/google/wahoo" />
   <project name="device/google/wahoo-kernel" clone-depth="1" />
-  <project name="device/google/vrservices" clone-depth="1" />
   <project name="device/google_car" />
   <project name="device/huawei/angler" revision="android-8.1.0_r1" />
   <project name="device/huawei/angler-kernel" revision="android-8.1.0_r1" clone-depth="1" />
