@@ -3,8 +3,10 @@
   <!-- prebuilt device kernel repos -->
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bramble-kernel" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/redfin-kernel" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/linaro/dragonboard-kernel" />
