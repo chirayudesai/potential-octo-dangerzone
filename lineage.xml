@@ -594,6 +594,40 @@
   <project name="LineageOS/ion" />
   <project name="LineageOS/Superuser" />
   <project name="LineageOS/Widgets" />
+  <project name="LineageOS/android_device_generic_goldfish-opengl" />
+  <project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+  <project name="LineageOS/android_external_ant-wireless_ant_client" />
+  <project name="LineageOS/android_external_ant-wireless_hidl" />
+  <project name="LineageOS/android_external_conscrypt" />
+  <project name="LineageOS/android_external_dng_sdk" />
+  <project name="LineageOS/android_external_exfatprogs" />
+  <project name="LineageOS/android_external_guice" />
+  <project name="LineageOS/android_external_ImageMagick" />
+  <project name="LineageOS/android_external_libbrillo" />
+  <project name="LineageOS/android_external_libcups" />
+  <project name="LineageOS/android_external_libexif" />
+  <project name="LineageOS/android_external_libjpeg-turbo" />
+  <project name="LineageOS/android_external_libnl" />
+  <project name="LineageOS/android_external_puffin" />
+  <project name="LineageOS/android_external_sfntly" />
+  <project name="LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr" />
+  <project name="LineageOS/android_hardware_qcom_sm8150_display" />
+  <project name="LineageOS/android_hardware_qcom_sm8150_media" />
+  <project name="LineageOS/android_packages_apps_Seedvault" />
+  <project name="LineageOS/android_prebuilts_abi-dumps_vndk" />
+  <project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+  <project name="LineageOS/android_system_apex" />
+  <project name="LineageOS/android_system_connectivity_wificond" />
+  <project name="LineageOS/android_system_gatekeeper" />
+  <project name="LineageOS/android_system_incremental_delivery" />
+  <project name="LineageOS/android_system_libufdt" />
+  <project name="LineageOS/android_system_tools_mkbootimg" />
+  <project name="LineageOS/android_test_vts-testcase_vndk" />
+  <project name="LineageOS/android_tools_metalava" />
+  <project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
+  <project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
+  <project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
+  <project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
 
   <project name="LineageOS/ansible" revision="master" />
   <project name="LineageOS/charter" revision="master" />
