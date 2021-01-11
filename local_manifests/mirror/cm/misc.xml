@@ -6,7 +6,6 @@
 
   <project name="LineageOS/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" />
   <project name="LineageOS/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" />
-  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
 
   <project name="LineageOS/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="github" />
 

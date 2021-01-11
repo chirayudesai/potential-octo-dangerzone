@@ -3,6 +3,5 @@
   <project name="LineageOS/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" />
   <project name="LineageOS/android_device_xiaomi_tissot" path="device/xiaomi/tissot" />
   <project name="LineageOS/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
 
 </manifest>
