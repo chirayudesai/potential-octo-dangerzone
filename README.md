@@ -5,13 +5,13 @@ The main goal of the project is to save disk space, and cut down on duplicate ne
 The local_manifests directory contains local manifests I have been using, since basically forever.
 
 ## Current Setup:
-URL=https://github.com/chirayudesai/potential-octo-dangerzone
+URL=https://github.com/LineageOS/mirror
 ### Mirrors
 #### mirror/aosp
-`repo init -u $URL -m aosp.xml --mirror`
+`repo init -u $URL -m aosp-minimal.xml --mirror`
 * Also contains all the local manifests under local_manifests/mirror/aosp
 #### mirror/cm
-`repo init -u $URL -m lineage.xml --mirror`
+`repo init -u $URL -m lineage-minimal.xml --mirror`
 * Also contains all the local manifests under local_manifests/mirror/cm
 * Another thing I do is symlink {device,external,kernel,platform} from the AOSP mirror here, so that it gets picked up when initing Lineage and setting this as `--reference`
 ### Working directories
