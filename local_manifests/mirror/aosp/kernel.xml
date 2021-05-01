@@ -7,5 +7,6 @@
 	<project name="kernel/msm-modules/qcacld" revison="master" />
 	<project name="kernel/msm-modules/qca-wfi-host-cmn" revison="master" />
 	<project name="kernel/msm-modules/wlan-fw-api" revison="master" />
+	<project name="platform/prebuilts/kernel-build-tools" revision="master" />
 
 </manifest>
