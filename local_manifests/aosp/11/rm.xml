@@ -2,6 +2,7 @@
 
   <!-- prebuilt device kernel repos -->
   <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/google/barbet-kernel" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bramble-kernel" />
   <remove-project name="device/google/coral-kernel" />
