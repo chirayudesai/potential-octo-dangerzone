@@ -7,4 +7,6 @@
   <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" />
   <!-- <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" /> -->
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" />
 </manifest>
