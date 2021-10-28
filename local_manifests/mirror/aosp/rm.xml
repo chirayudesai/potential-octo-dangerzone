@@ -10,6 +10,7 @@
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/redfin-kernel" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/wahoo-kernel" />
