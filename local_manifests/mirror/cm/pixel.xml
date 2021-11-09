@@ -21,6 +21,8 @@
   <project name="LineageOS/android_device_google_flame" path="device/google/flame" />
   <project name="LineageOS/android_kernel_google_coral" path="kernel/google/coral" />
 
+  <project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" />
+
   <project name="LineageOS/android_device_google_sunfish" path="device/google/sunfish" />
   <project name="LineageOS/android_kernel_google_sunfish" path="kernel/google/sunfish" />
 
