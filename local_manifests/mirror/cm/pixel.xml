@@ -4,6 +4,8 @@
   <project name="LineageOS/android_device_google_sailfish" path="device/google/sailfish" />
   <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" />
 
+  <project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" />
+
   <project name="LineageOS/android_device_google_muskie" path="device/google/muskie" />
   <project name="LineageOS/android_device_google_taimen" path="device/google/taimen" />
   <project name="LineageOS/android_device_google_wahoo" path="device/google/wahoo" />
@@ -20,15 +22,14 @@
   <project name="LineageOS/android_device_google_coral" path="device/google/coral" />
   <project name="LineageOS/android_device_google_flame" path="device/google/flame" />
   <project name="LineageOS/android_kernel_google_coral" path="kernel/google/coral" />
-
-  <project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" />
-
   <project name="LineageOS/android_device_google_sunfish" path="device/google/sunfish" />
   <project name="LineageOS/android_kernel_google_sunfish" path="kernel/google/sunfish" />
+  <project name="LineageOS/android_kernel_google_msm-4.14" path="kernel/google/msm-4.14" />
 
   <project name="LineageOS/android_device_google_redbull" path="device/google/redbull" />
   <project name="LineageOS/android_device_google_redfin" path="device/google/redfin" />
   <project name="LineageOS/android_device_google_bramble" path="device/google/bramble" />
+  <project name="LineageOS/android_device_google_barbet" path="device/google/barbet" />
   <project name="LineageOS/android_kernel_google_redbull" path="kernel/google/redbull" />
 
 </manifest>
