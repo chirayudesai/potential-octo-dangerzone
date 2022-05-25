@@ -1,5 +1,7 @@
 <manifest>
 
+  <project name="LineageOS/android_hardware_oneplus" />
+  <project name="LineageOS/android_hardware_oplus" />
   <project name="LineageOS/android_device_oneplus_common" />
   <project name="LineageOS/android_device_oneplus_kebab" />
   <project name="LineageOS/android_device_oneplus_lemonade" />
