@@ -17,6 +17,7 @@
   <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redfin-kernel" />
   <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/tangorpro-kernel" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/htc/flounder-kernel" />
   <remove-project name="device/huawei/angler-kernel" />
