@@ -6,10 +6,13 @@
   <remove-project name="device/google/barbet-kernel" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bramble-kernel" />
+  <remove-project name="device/google/bluejay-kernel" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="device/google/lynx-kernel" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/pantah-kernel" />
   <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redfin-kernel" />

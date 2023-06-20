@@ -9,4 +9,5 @@
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" />
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" />
+  <project name="TheMuppets/proprietary_vendor_shift_axolotl" path="vendor/shift/axolotl" />
 </manifest>

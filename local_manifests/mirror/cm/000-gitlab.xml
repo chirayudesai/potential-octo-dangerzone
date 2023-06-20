@@ -1,0 +1,5 @@
+<manifest>
+
+  <remote name="gitlab" fetch="https://gitlab.com" />
+
+</manifest>

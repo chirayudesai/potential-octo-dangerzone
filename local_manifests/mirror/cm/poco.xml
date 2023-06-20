@@ -1,0 +1,11 @@
+<manifest>
+
+  <project name="LineageOS/android_device_xiaomi_alioth" />
+  <project name="LineageOS/android_device_xiaomi_sm8150-common" />
+  <project name="LineageOS/android_device_xiaomi_sm8250-common" />
+  <project name="LineageOS/android_device_xiaomi_vayu" />
+  <project name="LineageOS/android_hardware_xiaomi" />
+  <project name="LineageOS/android_kernel_xiaomi_sm8150" />
+  <project name="LineageOS/android_kernel_xiaomi_sm8250" />
+
+</manifest>
